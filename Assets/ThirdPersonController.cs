@@ -8,7 +8,7 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField] private Transform camTransform;            // referencia na transform kamery   
     [SerializeField] private float moveSpeed;                   // rýchlosť chôdze
     [SerializeField] private float jumpHeight;                   // výška skoku
-    [SerializeField] LayerMask groundLayer;                     // vrstva coliderov na ktorých môže chodiť
+    [SerializeField] private LayerMask groundLayer;                     // vrstva coliderov na ktorých môže chodiť
 
     private float horizontalInput;      // input z A,D / šípky v pravo, v ľavo
     private float verticalInput;        // input z W,S / šípky hore, dole
