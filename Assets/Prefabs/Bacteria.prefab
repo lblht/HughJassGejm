@@ -403,3 +403,8 @@ MonoBehaviour:
   foodMask:
     serializedVersion: 2
     m_Bits: 256
+  eatingDelay: 0.5
+  eatingAmount: 1
+  amountToReproduce: 20
+  mesh: {fileID: 2781415034635530266}
+  bacteriaPrefab: {fileID: 2781415034975339962}

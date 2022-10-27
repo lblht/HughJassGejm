@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 81
@@ -190,6 +194,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -248,6 +256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 88
@@ -304,6 +316,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -362,6 +378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 108
@@ -418,6 +438,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -476,6 +500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 111
@@ -532,6 +560,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -590,6 +622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 140
@@ -646,6 +682,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -704,6 +744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -760,6 +804,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -818,6 +866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 86
@@ -874,6 +926,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (167)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -932,6 +988,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 96
@@ -988,6 +1048,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -1046,6 +1110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -1103,6 +1171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -1149,38 +1221,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
---- !u!1 &201577538
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 201577539}
-  m_Layer: 8
-  m_Name: Food
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &201577539
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201577538}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 16.66}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 889256018}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &208690769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1191,6 +1231,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -1249,6 +1293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -1305,6 +1353,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -1363,6 +1415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (171)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 183
@@ -1419,6 +1475,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -1477,6 +1537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (176)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 178
@@ -1533,6 +1597,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -1591,6 +1659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -1647,6 +1719,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -1705,6 +1781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 141
@@ -1761,6 +1841,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (114)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -1819,6 +1903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -1875,6 +1963,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (177)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -1933,6 +2025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 89
@@ -1989,6 +2085,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (157)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -2047,6 +2147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -2103,6 +2207,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -2161,6 +2269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 135
@@ -2218,6 +2330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -2274,6 +2390,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -2429,6 +2549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -2485,6 +2609,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -2543,6 +2671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 55
@@ -2599,6 +2731,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -2657,6 +2793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -2713,6 +2853,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -2771,6 +2915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -2827,6 +2975,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -2885,6 +3037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 144
@@ -2941,6 +3097,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -2999,6 +3159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -3055,6 +3219,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (133)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -3113,6 +3281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (149)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 149
@@ -3169,6 +3341,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -3227,6 +3403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 104
@@ -3283,6 +3463,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -3341,6 +3525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -3398,6 +3586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (172)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 182
@@ -3454,6 +3646,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -3609,6 +3805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -3665,6 +3865,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (164)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -3723,6 +3927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (169)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 167
@@ -3779,6 +3987,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -3837,6 +4049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -3893,6 +4109,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -3951,6 +4171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (152)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 146
@@ -4007,6 +4231,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -4065,6 +4293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 123
@@ -4121,6 +4353,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -4179,6 +4415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 125
@@ -4235,6 +4475,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -4293,6 +4537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (122)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 120
@@ -4350,6 +4598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -4406,6 +4658,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (119)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -4558,6 +4814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -4614,6 +4874,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (159)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -4672,6 +4936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 174
@@ -4728,6 +4996,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -4786,6 +5058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -4842,6 +5118,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (127)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -4900,6 +5180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -4956,6 +5240,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -5014,6 +5302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -5070,6 +5362,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -5128,6 +5424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 130
@@ -5184,6 +5484,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -5242,6 +5546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -5288,103 +5596,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
---- !u!1 &889256017
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 889256018}
-  - component: {fileID: 889256021}
-  - component: {fileID: 889256020}
-  - component: {fileID: 889256019}
-  m_Layer: 8
-  m_Name: Sphere
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &889256018
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889256017}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 201577539}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &889256019
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889256017}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &889256020
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889256017}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 274bb2548cc88bd49a7c82740231d8e8, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &889256021
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889256017}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &910053990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5395,6 +5606,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -5452,6 +5667,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -5645,6 +5864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (166)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 170
@@ -5701,6 +5924,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -5825,7 +6052,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.28288177, y: -0.00000003300717, z: 0.000000009734744, w: 0.9591548}
+  m_LocalRotation: {x: 0.28288177, y: 0.00000003300717, z: -0.000000009734744, w: 0.9591548}
   m_LocalPosition: {x: 0, y: 4.524, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5877,6 +6104,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (150)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -5935,6 +6166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -5991,6 +6226,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -6049,6 +6288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (153)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 164
@@ -6105,6 +6348,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (143)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -6163,6 +6410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (155)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 162
@@ -6219,6 +6470,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -6277,6 +6532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (161)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 156
@@ -6333,6 +6592,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (163)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -6391,6 +6654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 152
@@ -6447,6 +6714,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (165)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -6505,6 +6776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -6562,6 +6837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -6618,6 +6897,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -6773,6 +7056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -6829,6 +7116,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -6887,6 +7178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 100
@@ -6943,6 +7238,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -7001,6 +7300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (154)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 163
@@ -7057,6 +7360,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -7115,6 +7422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -7172,6 +7483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 165
@@ -7228,6 +7543,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -7383,6 +7702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 106
@@ -7439,6 +7762,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -7497,6 +7824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 154
@@ -7553,6 +7884,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -7611,6 +7946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 112
@@ -7667,6 +8006,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -7725,6 +8068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 105
@@ -7781,6 +8128,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (173)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -7839,6 +8190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (132)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 128
@@ -7896,6 +8251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (158)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 159
@@ -7952,6 +8311,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -8107,6 +8470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -8163,6 +8530,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -8221,6 +8592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (178)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 176
@@ -8277,6 +8652,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -8335,6 +8714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -8391,6 +8774,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -8449,6 +8836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (147)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 151
@@ -8505,6 +8896,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -8563,6 +8958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 155
@@ -8619,6 +9018,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -8677,6 +9080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (137)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 142
@@ -8733,6 +9140,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (168)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -8791,6 +9202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 90
@@ -8847,6 +9262,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (148)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -8905,6 +9324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -8961,6 +9384,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -9019,6 +9446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 79
@@ -9075,6 +9506,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -9133,6 +9568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -9189,6 +9628,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -9247,6 +9690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (156)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 161
@@ -9303,6 +9750,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -9361,6 +9812,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 92
@@ -9417,6 +9872,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -9475,6 +9934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 126
@@ -9531,6 +9994,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -9589,6 +10056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 117
@@ -9645,6 +10116,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -9708,6 +10183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 109
@@ -9764,6 +10243,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -9822,6 +10305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 129
@@ -9878,6 +10365,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -9936,6 +10427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 147
@@ -9992,6 +10487,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -10050,6 +10549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 153
@@ -10106,6 +10609,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -10164,6 +10671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (174)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 180
@@ -10220,6 +10731,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -10278,6 +10793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (175)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 179
@@ -10334,6 +10853,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (170)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -10392,6 +10915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 145
@@ -10448,6 +10975,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -10506,6 +11037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 124
@@ -10563,6 +11098,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -10619,6 +11158,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -10774,6 +11317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (160)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 157
@@ -10830,6 +11377,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -10888,6 +11439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 69
@@ -10944,6 +11499,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -11002,6 +11561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -11058,6 +11621,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -11116,6 +11683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 139
@@ -11172,6 +11743,10 @@ PrefabInstance:
     - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_Name
       value: Bacteria (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
@@ -11230,6 +11805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -11287,6 +11866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bacteria (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 2781415034975339962, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_RootOrder
       value: 103
@@ -11333,6 +11916,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
+--- !u!1001 &1690640547451232432
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1690640547383882994, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
+      propertyPath: m_Name
+      value: Food
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690640547383882995, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690640547383882995, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690640547383882995, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690640547383882995, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690640547383882995, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690640547383882995, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690640547383882995, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690640547383882995, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690640547383882995, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690640547383882995, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690640547383882995, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 42c3b4ab91d1e3146b9133c7503b8374, type: 3}
 --- !u!1001 &2490357387656284559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11342,15 +11982,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2490357385607420359, guid: 7b42a37508657ff45b8d29cff9e0395a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.31622773
+      value: 0.31622776
       objectReference: {fileID: 0}
     - target: {fileID: 2490357385607420359, guid: 7b42a37508657ff45b8d29cff9e0395a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -1e-45
+      value: 3e-45
       objectReference: {fileID: 0}
     - target: {fileID: 2490357385607420359, guid: 7b42a37508657ff45b8d29cff9e0395a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 2490357385608142480, guid: 7b42a37508657ff45b8d29cff9e0395a, type: 3}
       propertyPath: m_LocalRotation.y
@@ -11418,11 +12058,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2490357385816020210, guid: 7b42a37508657ff45b8d29cff9e0395a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000016503579
+      value: 0.000000016503588
       objectReference: {fileID: 0}
     - target: {fileID: 2490357385816020210, guid: 7b42a37508657ff45b8d29cff9e0395a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000000486737
+      value: -0.0000000048673727
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b42a37508657ff45b8d29cff9e0395a, type: 3}
@@ -11443,7 +12083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.17
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11451,7 +12091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.2
+      value: 10.99
       objectReference: {fileID: 0}
     - target: {fileID: 2781415034975339963, guid: 562c0afbebeb46b488d778a7a393cca3, type: 3}
       propertyPath: m_LocalRotation.w
