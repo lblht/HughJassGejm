@@ -5,6 +5,7 @@ using UnityEngine;
 public class Food : MonoBehaviour
 {
     [SerializeField] private float amount;  
+    [SerializeField] private Renderer renderer;  
 
     private bool occupied;
 
@@ -18,6 +19,7 @@ public class Food : MonoBehaviour
         else
         {
             gameObject.layer = LayerMask.NameToLayer("Default");   
+            renderer.material.color = Color.black;
             return false;
         }
 
