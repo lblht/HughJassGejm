@@ -106,7 +106,7 @@ public class BacteriaAI : MonoBehaviour
             state = States.LookingForFood;
             currentFood = null;
         }   
-        else if(Vector3.Distance(targetPosition, transform.position) < 1f)    // ak je vzdialenosť k jedlu menšia ako 2 zmení sa stav na jedenie
+        else if(Vector3.Distance(targetPosition, transform.position) < 2f)    // ak je vzdialenosť k jedlu menšia ako 2 zmení sa stav na jedenie
         {
             state = States.Eating;
             eatTimer = Time.time + eatingDelay;
