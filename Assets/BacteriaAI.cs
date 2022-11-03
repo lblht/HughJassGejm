@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+//komentar jak blazen
 public class BacteriaAI : MonoBehaviour
 {
     [SerializeField] private NavMeshAgent navMeshAgent;     // referencia na NavMesh Agent
