@@ -5,10 +5,12 @@ using UnityEngine;
 public class ThirdPersonController : MonoBehaviour
 {
     [SerializeField] private CharacterController controller;    // referencia na character controller
-    [SerializeField] private Transform camTransform;            // referencia na transform kamery   
     [SerializeField] private float moveSpeed;                   // rýchlosť chôdze
-    [SerializeField] private float jumpHeight;                   // výška skoku
-    [SerializeField] private LayerMask groundLayer;                     // vrstva coliderov na ktorých môže chodiť
+    [SerializeField] private float jumpHeight;                  // výška skoku
+    [SerializeField] private float sprintSpeed;                 // rýchlosť šprintu
+    [SerializeField] private LayerMask groundLayer;             // vrstva coliderov na ktorých môže chodiť
+
+    private Transform camTransform;            // referencia na transform kamery   
 
     private float horizontalInput;      // input z A,D / šípky v pravo, v ľavo
     private float verticalInput;        // input z W,S / šípky hore, dole
@@ -23,10 +25,14 @@ public class ThirdPersonController : MonoBehaviour
     private float groundCheckOffset = 1f;                     // vrstva coliderov na ktorých môže chodiť
     private float groundCheckSize = 0.4f;                     // vrstva coliderov na ktorých môže chodiť
     private bool isGrounded;
+    private float speed;
+    private bool sprinting;
+    private bool canSprint; 
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;   // vypnutie zobrazovania kurzoru v hre
+        camTransform = Camera.main.transform;
+        speed = moveSpeed;
     }
 
     void Update()
@@ -49,6 +55,14 @@ public class ThirdPersonController : MonoBehaviour
 
         if(Input.GetButtonDown("Jump") && isGrounded)
             Jump();
+
+        if(Input.GetKey(KeyCode.LeftShift) && canSprint)
+            sprinting = true;
+        else
+            sprinting = false;
+
+        if(sprinting && !canSprint)
+            sprinting = false;
     }
 
     void Gravity()
@@ -73,6 +87,11 @@ public class ThirdPersonController : MonoBehaviour
             float angel = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
             transform.rotation = Quaternion.Euler(0f, angel, 0f);
             moveDirection = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+
+            if(sprinting)
+                speed = sprintSpeed;
+            else
+                speed = moveSpeed;
         }
         else
         {
@@ -82,10 +101,24 @@ public class ThirdPersonController : MonoBehaviour
 
     void ApplyMovement()
     {   
-        controller.Move(moveDirection.normalized * moveSpeed * Time.deltaTime);    // horizontálny pohyb
+        controller.Move(moveDirection.normalized * speed * Time.deltaTime);    // horizontálny pohyb
         controller.Move(velocity * Time.deltaTime);                                // vertikálny pohyb
     }
 
+    public void SetCanSprint(bool value)
+    {
+        canSprint = value;
+    }
+
+    public bool IsSprinting()
+    {
+        return sprinting;
+    }
+
+    public Vector3 GetMoveDirection()
+    {
+        return moveDirection;
+    }
 
     //debug
     void OnDrawGizmos()

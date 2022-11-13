@@ -484,6 +484,8 @@ MonoBehaviour:
   camTransform: {fileID: 0}
   moveSpeed: 5
   jumpHeight: 1
+  canSprint: 1
+  sprintSpeed: 8
   groundLayer:
     serializedVersion: 2
     m_Bits: 1

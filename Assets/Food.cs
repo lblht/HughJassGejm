@@ -9,6 +9,11 @@ public class Food : MonoBehaviour
 
     private bool occupied;
 
+    void Start()
+    {
+        GameManager.instance.AddRecource();
+    }
+
     public bool ReduceAmount(int value)
     {
         if((amount - value) >= 0)
@@ -20,6 +25,7 @@ public class Food : MonoBehaviour
         {
             gameObject.layer = LayerMask.NameToLayer("Default");   
             renderer.material.color = Color.black;
+            GameManager.instance.RemoveRecource();
             return false;
         }
 

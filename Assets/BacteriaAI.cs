@@ -6,11 +6,13 @@ using UnityEngine.AI;
 //komentar jak blazen
 public class BacteriaAI : MonoBehaviour
 {
+    [SerializeField] private Animator animator;   
     [SerializeField] private NavMeshAgent navMeshAgent;     // referencia na NavMesh Agent
     [SerializeField] private float slowSpeed;               // rýchlosť ked hľadá jednlo
     [SerializeField] private float mediumSpeed;             // rýchlosť ked sa pohybuje k jednlu
     [SerializeField] private float runSpeed;                // rýchlosť ked uteká pred hráčom
     [SerializeField] private float playerDetectionRadius;   // radius detekcie hráča
+    [SerializeField] private LayerMask playerMask;          // colízna vrstva hráča
     [SerializeField] private float foodRadius;              // rádius detekcie jedla
     [SerializeField] private LayerMask foodMask;            // colízna vrstva jednla
     [SerializeField] private float eatingDelay;             // delay medzi každým odkusnutím z jedla
@@ -31,9 +33,10 @@ public class BacteriaAI : MonoBehaviour
 
     void Start()
     {
+        GameManager.instance.AddBacteria();
         state = States.LookingForFood;              // nastavenie stavu v ktorom začína
         targetPosition = RandomTargetPosition();
-        player = GameObject.FindGameObjectWithTag("Player").transform;  // nájde objekt hráča v scéne pomocou jeho tagu
+        //player = GameObject.FindGameObjectWithTag("Player").transform;  // nájde objekt hráča v scéne pomocou jeho tagu
     }
 
     void FixedUpdate()
@@ -63,7 +66,6 @@ public class BacteriaAI : MonoBehaviour
             Running();
             break;
         default:
-            LookingForFood();
             break;
         }
 
@@ -106,7 +108,7 @@ public class BacteriaAI : MonoBehaviour
             state = States.LookingForFood;
             currentFood = null;
         }   
-        else if(Vector3.Distance(targetPosition, transform.position) < 2f)    // ak je vzdialenosť k jedlu menšia ako 2 zmení sa stav na jedenie
+        else if(Vector3.Distance(targetPosition, transform.position) < 1.5f)    // ak je vzdialenosť k jedlu menšia ako 2 zmení sa stav na jedenie
         {
             state = States.Eating;
             eatTimer = Time.time + eatingDelay;
@@ -117,6 +119,10 @@ public class BacteriaAI : MonoBehaviour
     void Eating()
     {
         navMeshAgent.speed = 0;
+
+        // Aby bola baktéria vždy otočená k jedlu ktoré práva papá
+        Vector3 rotDir = Vector3.RotateTowards(transform.forward, currentFood.transform.position - transform.position, Time.deltaTime * 1f, 0.0f);
+        transform.rotation = Quaternion.LookRotation(rotDir);
 
         if(Time.time > eatTimer)
             TakeABite();
@@ -129,10 +135,9 @@ public class BacteriaAI : MonoBehaviour
             resourceAmount += eatingAmount;
             if(resourceAmount >= amountToReproduce)
             {
-                Mitosis();
+                animator.Play("Bacteria_Mitosis");
                 return;
             }
-            mesh.localScale += new Vector3(0.05f, 0.02f, 0.02f); // zväčšenie meshu
             eatTimer = Time.time + eatingDelay;
         }
         else
@@ -144,14 +149,11 @@ public class BacteriaAI : MonoBehaviour
     // funkcia sa stará o rozmnožovanie baktérie
     void Mitosis()
     {
-        Debug.Log("new bebe!");
-
-        currentFood.SetOccupied(false);
+        Vector3 position1 = transform.position + (transform.right * 0.35f);    // vypočet pozície pre spawn nových baktérií
+        Vector3 position2 = transform.position + (transform.right * -0.35f);
         Reset();
-        Vector3 position1 = transform.position + (transform.right * 0.3f);    // vypočet pozície pre spawn nových baktérií
-        Vector3 position2 = transform.position + (transform.right * -0.3f);
-        Instantiate(bacteriaPrefab, position1, Quaternion.identity);        // inštancovanie nových baktérii
-        Instantiate(bacteriaPrefab, position2, Quaternion.identity);
+        Instantiate(bacteriaPrefab, position1, transform.rotation);        // inštancovanie nových baktérii
+        Instantiate(bacteriaPrefab, position2, transform.rotation);
         Destroy(gameObject);
 
     }
@@ -205,21 +207,33 @@ public class BacteriaAI : MonoBehaviour
 
     bool CheckIfPlayerInRange()
     {
-        if(Vector3.Distance(player.position, transform.position) < playerDetectionRadius)
+        /*if(Vector3.Distance(player.position, transform.position) < playerDetectionRadius)
             return true;
+        else
+            return false;*/
+
+        if(Physics.OverlapSphere(transform.position, playerDetectionRadius, playerMask).Length > 0)
+        {
+            Collider[] hitColliders = Physics.OverlapSphere(transform.position, playerDetectionRadius, playerMask);
+            player = hitColliders[0].transform;
+            return true;
+        }
         else
             return false;
     }
     // Resetuje hodnoty na default
     void Reset()
     {
-        currentFood = null;
-        resourceAmount = 0;
+        GameManager.instance.RemoveBacteria();
+        currentFood?.SetOccupied(false);
         mesh.localScale = new Vector3(1f,1f,1f);
-        Start();
+        animator.Play("Bacteria_Idle");
+        //currentFood = null;
+        //resourceAmount = 0;
+        //state = States.LookingForFood;     
+        //targetPosition = RandomTargetPosition();
         //gameObject.SetActive(false);
         // TODO: Pooling?
-        // TODO: Animácia
     }
 
     void AlignMeshWithGround()
