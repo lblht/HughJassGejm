@@ -16,8 +16,7 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        instance = this;        // Toto bude robiť problemy treba to inak prešpekulovať
-        HideCursor(true);
+        instance = this;        // Toto bude robiť problemy možno treba to inak prešpekulovať
     }
 
     public void AddBacteria()

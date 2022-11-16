@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class ThirdPersonController : MonoBehaviour
 {
     [SerializeField] private CharacterController controller;    // referencia na character controller
+    [SerializeField] private GameObject thirdPersonCameraPrefab;
     [SerializeField] private float moveSpeed;                   // rýchlosť chôdze
     [SerializeField] private float jumpHeight;                  // výška skoku
     [SerializeField] private float sprintSpeed;                 // rýchlosť šprintu
@@ -22,7 +24,7 @@ public class ThirdPersonController : MonoBehaviour
 
     private Vector3 velocity;       // uchováva rýchlosť a smer skoku a pádu
     private float gravity = -9.8f;
-    private float groundCheckOffset = 1f;                     // vrstva coliderov na ktorých môže chodiť
+    private float groundCheckOffset = 0.8f;                    // vrstva coliderov na ktorých môže chodiť
     private float groundCheckSize = 0.4f;                     // vrstva coliderov na ktorých môže chodiť
     private bool isGrounded;
     private float speed;
@@ -31,8 +33,13 @@ public class ThirdPersonController : MonoBehaviour
 
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         camTransform = Camera.main.transform;
         speed = moveSpeed;
+
+        GameObject cam = Instantiate(thirdPersonCameraPrefab, transform.position, Quaternion.identity);
+        cam.GetComponent<CinemachineFreeLook>().Follow = transform;
+        cam.GetComponent<CinemachineFreeLook>().LookAt = transform;
     }
 
     void Update()

@@ -33,10 +33,9 @@ public class BacteriaAI : MonoBehaviour
 
     void Start()
     {
-        GameManager.instance.AddBacteria();
+        GameManager.instance?.AddBacteria();
         state = States.LookingForFood;              // nastavenie stavu v ktorom začína
         targetPosition = RandomTargetPosition();
-        //player = GameObject.FindGameObjectWithTag("Player").transform;  // nájde objekt hráča v scéne pomocou jeho tagu
     }
 
     void FixedUpdate()
@@ -69,7 +68,8 @@ public class BacteriaAI : MonoBehaviour
             break;
         }
 
-        navMeshAgent.destination = targetPosition;      // nastavenie destinácie to NavMesh Agenta
+        if(navMeshAgent.enabled = true)
+            navMeshAgent.destination = targetPosition;      // nastavenie destinácie to NavMesh Agenta
         AlignMeshWithGround();
 
         if(navMeshAgent.enabled == false && Vector3.Distance(transform.position, player.position) > 5f)     // dočasná poistka
@@ -224,7 +224,7 @@ public class BacteriaAI : MonoBehaviour
     // Resetuje hodnoty na default
     void Reset()
     {
-        GameManager.instance.RemoveBacteria();
+        GameManager.instance?.RemoveBacteria();
         currentFood?.SetOccupied(false);
         mesh.localScale = new Vector3(1f,1f,1f);
         animator.Play("Bacteria_Idle");

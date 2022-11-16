@@ -481,10 +481,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 7406302697618358798}
-  camTransform: {fileID: 0}
+  thirdPersonCameraPrefab: {fileID: 2490357385716223736, guid: 7b42a37508657ff45b8d29cff9e0395a, type: 3}
   moveSpeed: 5
   jumpHeight: 1
-  canSprint: 1
   sprintSpeed: 8
   groundLayer:
     serializedVersion: 2

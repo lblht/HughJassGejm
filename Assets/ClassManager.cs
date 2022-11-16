@@ -16,7 +16,7 @@ public class ClassManager : MonoBehaviour
     private bool selectingClass;
     private bool selectingLocation;
     private GameObject selectedClass;
-    
+
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Tab) && !selectingClass && !selectingLocation)
@@ -49,11 +49,9 @@ public class ClassManager : MonoBehaviour
         RaycastHit hit;
         Physics.Raycast (Camera.main.ScreenPointToRay(Input.mousePosition), out hit);
         GameManager.instance.HideCursor(true);
-        GameObject newClass = Instantiate(selectedClass, hit.point + Vector3.up * 1f, Quaternion.identity);
+        Instantiate(selectedClass, hit.point + Vector3.up * 1f, Quaternion.identity);
         selectingLocation = false;
         selectionCamera.SetActive(false);
-        thirdPersonCamera.Follow = newClass.transform;
-        thirdPersonCamera.LookAt = newClass.transform;
     }
 
     public void SelectClass(int classID)

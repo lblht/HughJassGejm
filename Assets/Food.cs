@@ -11,7 +11,7 @@ public class Food : MonoBehaviour
 
     void Start()
     {
-        GameManager.instance.AddRecource();
+        GameManager.instance?.AddRecource();
     }
 
     public bool ReduceAmount(int value)
@@ -25,7 +25,7 @@ public class Food : MonoBehaviour
         {
             gameObject.layer = LayerMask.NameToLayer("Default");   
             renderer.material.color = Color.black;
-            GameManager.instance.RemoveRecource();
+            GameManager.instance?.RemoveRecource();
             return false;
         }
 

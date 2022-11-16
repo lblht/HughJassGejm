@@ -48,10 +48,9 @@ public class Macrophage : MonoBehaviour
             hitCollider.gameObject.GetComponent<Rigidbody>().useGravity = true;
             hitCollider.gameObject.GetComponent<Rigidbody>().AddForce(Vector3.up * 5);
             hitCollider.gameObject.GetComponent<Rigidbody>().AddForce((transform.position - hitCollider.transform.position).normalized * 10);
-            if(Vector3.Distance(transform.position, hitCollider.transform.position) < 1.5f)
+            if(Vector3.Distance(transform.position, hitCollider.transform.position) < 1.8f)
             {
-                Destroy(hitCollider.gameObject);
-                GameManager.instance.RemoveBacteria();
+                hitCollider.gameObject.GetComponent<BacteriaDeath>().Die();
                 AddStamina(5f);
             }
         }
