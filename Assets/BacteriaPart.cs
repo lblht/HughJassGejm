@@ -36,6 +36,8 @@ public class BacteriaPart : MonoBehaviour
             {
                 circleUI.fillAmount = 0;
             }
+
+            hintUI.transform.position = Camera.main.WorldToScreenPoint(transform.position) + new Vector3(0f, 100f, 0f);
         }
 
     }

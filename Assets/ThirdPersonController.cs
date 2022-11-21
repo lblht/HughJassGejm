@@ -11,6 +11,7 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField] private float jumpHeight;                  // výška skoku
     [SerializeField] private float sprintSpeed;                 // rýchlosť šprintu
     [SerializeField] private LayerMask groundLayer;             // vrstva coliderov na ktorých môže chodiť
+    [SerializeField] private Animator animator;   
 
     private Transform camTransform;            // referencia na transform kamery   
 
@@ -52,6 +53,11 @@ public class ThirdPersonController : MonoBehaviour
 
         Gravity();
         ApplyMovement();
+
+        if(isGrounded && inputDirection != Vector3.zero)
+            animator?.SetBool("moving", true);
+        else
+            animator?.SetBool("moving", false);
     }
 
     void GetInput()
