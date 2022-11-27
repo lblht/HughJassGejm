@@ -6230,7 +6230,7 @@ MonoBehaviour:
   classSelectionAnimator: {fileID: 5558739260435565826}
   selectionCamera: {fileID: 5558739260694874129}
   class1Prefab: {fileID: 5057315878299707578, guid: 25adadca1da77f8448e9a543937bedd4, type: 3}
-  class2Prefab: {fileID: 7406302697618358796, guid: 0410e375a6a24544cae732fe5312b49f, type: 3}
+  class2Prefab: {fileID: 3156969310876467979, guid: 8c986cde9a47bb14ca02a088121169ba, type: 3}
   class3Prefab: {fileID: 2798715674218466951, guid: 2d8ab195b01617241b9fd2cd7a8ba2b0, type: 3}
   class4Prefab: {fileID: 7406302697618358796, guid: 0410e375a6a24544cae732fe5312b49f, type: 3}
   classCard1: {fileID: 8821068013490219889}
@@ -6258,7 +6258,7 @@ MonoBehaviour:
     classToUnlock: 2
     objectiveManager: {fileID: 0}
     active: 0
-  dendriticCellObjective:
+  neutrophileObjective:
     requiredKills: 20
     progressText: {fileID: 6120635285613625536}
     requiredText: {fileID: 7163313962566269722}
@@ -8157,7 +8157,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Macrophage
+  m_text: Neutrophile
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
   m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}

@@ -14,6 +14,7 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField] private Animator animator;   
 
     private Transform camTransform;            // referencia na transform kamery   
+    private GameObject thirdPersonCamera;
 
     private float horizontalInput;      // input z A,D / šípky v pravo, v ľavo
     private float verticalInput;        // input z W,S / šípky hore, dole
@@ -37,10 +38,18 @@ public class ThirdPersonController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         camTransform = Camera.main.transform;
         speed = moveSpeed;
+    }
 
-        GameObject cam = Instantiate(thirdPersonCameraPrefab, transform.position, Quaternion.identity);
-        cam.GetComponent<CinemachineFreeLook>().Follow = transform;
-        cam.GetComponent<CinemachineFreeLook>().LookAt = transform;
+    void OnEnable()
+    {
+        thirdPersonCamera = Instantiate(thirdPersonCameraPrefab, transform.position, Quaternion.identity);
+        thirdPersonCamera.GetComponent<CinemachineFreeLook>().Follow = transform;
+        thirdPersonCamera.GetComponent<CinemachineFreeLook>().LookAt = transform;
+    }
+
+    void OnDisable()
+    {
+        Destroy(thirdPersonCamera, 5);
     }
 
     void Update()

@@ -52,26 +52,22 @@ public class ObjectiveManager : MonoBehaviour
 
     [System.Serializable]
     public class MacrophageObjective : ObjectiveTypeA
-    {
-
-    }
+    {}
 
     [System.Serializable]
-    public class DendriticCellObjective : ObjectiveTypeA
-    {
-
-    }
+    public class NeutrophileObjective : ObjectiveTypeA
+    {}
 
     public MacrophageObjective macrophageObjective;
-    public DendriticCellObjective dendriticCellObjective;
+    public NeutrophileObjective neutrophileObjective;
 
     void Start()
     {
         macrophageObjective.Initialize();
         macrophageObjective.objectiveManager = this;
 
-        dendriticCellObjective.Initialize();
-        dendriticCellObjective.objectiveManager = this;
+        neutrophileObjective.Initialize();
+        neutrophileObjective.objectiveManager = this;
 
         NextObjective();
     }
@@ -86,7 +82,7 @@ public class ObjectiveManager : MonoBehaviour
             macrophageObjective.Active(true);
             break;
         case 2:
-            dendriticCellObjective.Active(true);
+            neutrophileObjective.Active(true);
             break;
         default:
             Debug.Log("No More Objectives");
