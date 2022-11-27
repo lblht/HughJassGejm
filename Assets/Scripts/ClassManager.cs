@@ -19,9 +19,11 @@ public class ClassManager : MonoBehaviour
     private bool selectingClass;
     private bool selectingLocation;
     private GameObject selectedClass;
+    private ClassCard currentClassCard;
 
     void Start()
     {
+        currentClassCard = classCard1;
         classCard1.Locked(false);
         classCard2.Locked(true);
         classCard3.Locked(true);
@@ -73,20 +75,47 @@ public class ClassManager : MonoBehaviour
         selectionCamera.SetActive(true);
         classSelectionAnimator.SetBool("Open", false);
         Destroy(GameObject.FindGameObjectWithTag("Player"));
+        currentClassCard.StartCooldown();
         
         switch (classID)                  
         {
         case 1:
             selectedClass = class1Prefab;
+            currentClassCard = classCard1;
             break;
         case 2:
             selectedClass = class2Prefab;
+            currentClassCard = classCard2;
             break;
         case 3:
             selectedClass = class3Prefab;
+            currentClassCard = classCard3;
             break;
         case 4:
             selectedClass = class4Prefab;
+            currentClassCard = classCard4;
+            break;
+        default:
+            Debug.Log("Wrong Class ID!");
+            break;
+        }
+    }
+
+    public void UnlockClass(int classID)
+    {
+        switch (classID)                  
+        {
+        case 1:
+            classCard1.Locked(false);
+            break;
+        case 2:
+            classCard2.Locked(false);
+            break;
+        case 3:
+            classCard3.Locked(false);
+            break;
+        case 4:
+            classCard4.Locked(false);
             break;
         default:
             Debug.Log("Wrong Class ID!");

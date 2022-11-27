@@ -224,7 +224,7 @@ public class BacteriaAI : MonoBehaviour
     // Resetuje hodnoty na default
     void Reset()
     {
-        GameManager.instance?.RemoveBacteria();
+        GameManager.instance?.RemoveBacteria("Mitosis");
         currentFood?.SetOccupied(false);
         mesh.localScale = new Vector3(1f,1f,1f);
         animator.Play("Bacteria_Idle");

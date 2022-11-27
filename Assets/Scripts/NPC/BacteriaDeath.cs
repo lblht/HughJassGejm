@@ -8,11 +8,11 @@ public class BacteriaDeath : MonoBehaviour
     [SerializeField] private int dropChance;
     [SerializeField] private List<GameObject> parts;
 
-    public void Die()
+    public void Die(string responsible)
     {
         Drop();
+        GameManager.instance?.RemoveBacteria(responsible);
         Destroy(gameObject);
-        GameManager.instance?.RemoveBacteria();
     }
 
     private void Drop()

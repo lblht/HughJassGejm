@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI numberOfBacteriaTextUI;
     [SerializeField] private Slider slider;  
     [SerializeField] private GameObject pauseMenu; 
+    [SerializeField] private ObjectiveManager objectiveManager; 
 
     private int numberOfBacteria;
     private int resourceAmount;
@@ -35,10 +36,19 @@ public class GameManager : MonoBehaviour
         UpdateBacteriaUI();
     }
 
-    public void RemoveBacteria()
+    public void RemoveBacteria(string responsible)
     {
         numberOfBacteria--;
         UpdateBacteriaUI();
+
+        switch (responsible)                  
+        {
+        case "Macrophage":
+            objectiveManager.macrophageObjective.UpdateObjective();
+            break;
+        default:
+            break;
+        }
     }
 
     void UpdateBacteriaUI()

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Slovak (sk)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Slovak (sk)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1cfb78d7fa6b8a649af37d02a876df68
+  m_SerializeEntries:
+  - m_GUID: 1f2e4c9bc79e762479a565df7a947a59
+    m_Address: MainMenu_sk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-sk
+    - Preload
+  - m_GUID: 6e24d0a7f27711448b8e9ef55c069247
+    m_Address: Options_sk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-sk
+    - Preload
+  - m_GUID: 7de46b5e01db874448b02f3540d0edd7
+    m_Address: LevelSelectionScreen_sk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-sk
+    - Preload
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 50a52073a8a951442bbe80708be15dbe, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0196d19e5dca3bc48b44e074fbd221e0, type: 2}
+    - {fileID: 11400000, guid: 6e80cba8f1cf2c04bbdaecbb51535825, type: 2}

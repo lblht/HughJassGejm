@@ -50,7 +50,7 @@ public class Macrophage : MonoBehaviour
             hitCollider.gameObject.GetComponent<Rigidbody>().AddForce((transform.position - hitCollider.transform.position).normalized * 10);
             if(Vector3.Distance(transform.position, hitCollider.transform.position) < 1.8f)
             {
-                hitCollider.gameObject.GetComponent<BacteriaDeath>().Die();
+                hitCollider.gameObject.GetComponent<BacteriaDeath>().Die("Macrophage");
                 AddStamina(5f);
             }
         }
