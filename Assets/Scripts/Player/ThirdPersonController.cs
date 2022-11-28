@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
+//test
+
 public class ThirdPersonController : MonoBehaviour
 {
     [SerializeField] private CharacterController controller;    // referencia na character controller
