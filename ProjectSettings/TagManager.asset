@@ -8,6 +8,7 @@ TagManager:
   - Crosshair
   - Ground
   - Bullet
+  - Bacteria
   layers:
   - Default
   - TransparentFX

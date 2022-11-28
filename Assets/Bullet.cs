@@ -13,7 +13,12 @@ public class Bullet : MonoBehaviour
  
     void OnCollisionEnter(Collision collision)
     {
-        Destroy(collision.gameObject);
+        
+
+        if(collision.gameObject.tag=="Bacteria")
+        {
+            Destroy(collision.gameObject);
+        }
         Destroy(gameObject);
     }
 }
