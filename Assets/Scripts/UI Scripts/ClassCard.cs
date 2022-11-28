@@ -12,6 +12,7 @@ public class ClassCard : MonoBehaviour
     [SerializeField] private TextMeshProUGUI cooldownText;
     [SerializeField] private GameObject cooldownUI;
 
+    private bool locked;
     private float timer;
 
     void FixedUpdate()
@@ -21,7 +22,7 @@ public class ClassCard : MonoBehaviour
             timer -= Time.deltaTime;
             cooldownText.text = timer.ToString("F0");
         }
-        else
+        else if(!locked)
         {
             cooldownUI.SetActive(false);
             button.enabled = true;
@@ -32,6 +33,7 @@ public class ClassCard : MonoBehaviour
     {
         button.enabled = !value;
         lockUI.SetActive(value);
+        locked = value;
     }
 
     public void StartCooldown()
