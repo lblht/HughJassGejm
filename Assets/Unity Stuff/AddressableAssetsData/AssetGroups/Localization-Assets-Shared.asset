@@ -29,6 +29,10 @@ MonoBehaviour:
     m_Address: Assets/Localization/LevelSelectionScreen Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: e2dbe40c15174184c81660a7009abe9a
+    m_Address: Assets/Unity Stuff/Localization/GeneralUI Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 50a52073a8a951442bbe80708be15dbe, type: 2}
   m_SchemaSet:

@@ -10,35 +10,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: MainMenu Shared Data
+  m_Name: GeneralUI Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: MainMenu
-  m_TableCollectionNameGuidString: 247ed038c9f38054c887af9b8a1be2ca
+  m_TableCollectionName: GeneralUI
+  m_TableCollectionNameGuidString: e2dbe40c15174184c81660a7009abe9a
   m_Entries:
-  - m_Id: 7234473984
-    m_Key: startGame
+  - m_Id: 30786572288
+    m_Key: numberOfBacteria
     m_Metadata:
       m_Items: []
-  - m_Id: 215511027712
-    m_Key: quit
+  - m_Id: 198776836096
+    m_Key: mainObjective
     m_Metadata:
       m_Items: []
-  - m_Id: 161157042176
-    m_Key: options
+  - m_Id: 441811587072
+    m_Key: macrophage
     m_Metadata:
       m_Items: []
-  - m_Id: 1724233416036352
-    m_Key: mainMenu
+  - m_Id: 650893447168
+    m_Key: protectBody
+    m_Metadata:
+      m_Items: []
+  - m_Id: 932285108224
+    m_Key: eatBacteria
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 3133919860808482960
+    rid: 3603122262032777216
   references:
     version: 2
     RefIds:
-    - rid: 3133919860808482960
+    - rid: 3603122262032777216
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1669310660710
+        m_CustomEpoch: 1669721009998
