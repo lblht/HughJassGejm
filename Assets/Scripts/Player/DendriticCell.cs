@@ -5,8 +5,5 @@ using UnityEngine;
 public class DendriticCell : MonoBehaviour
 {
 
-    public void AddBacteriaPart(int partID)
-    {
-        Debug.Log(partID);
-    }
+   
 }

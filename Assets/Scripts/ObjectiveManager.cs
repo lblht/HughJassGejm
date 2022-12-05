@@ -11,11 +11,11 @@ public class ObjectiveManager : MonoBehaviour
 
     public class ObjectiveTypeA
     {
-        [SerializeField] private int requiredKills;
+        [SerializeField] private int required;
         [SerializeField] private TextMeshProUGUI progressText;
         [SerializeField] private TextMeshProUGUI requiredText;
         [SerializeField] private GameObject objectiveUI;
-        [SerializeField] private int classToUnlock;
+        [SerializeField] private string objectiveID;
         [HideInInspector] public ObjectiveManager objectiveManager;
         [HideInInspector] public bool active;
 
@@ -23,7 +23,7 @@ public class ObjectiveManager : MonoBehaviour
 
         public void Initialize()
         {
-            requiredText.text = "/" + requiredKills.ToString();
+            requiredText.text = "/" + required.ToString();
             Active(false);
         }
 
@@ -34,11 +34,10 @@ public class ObjectiveManager : MonoBehaviour
                 currentKills++;
                 progressText.text = currentKills.ToString();
 
-                if(currentKills >= requiredKills)
+                if(currentKills >= required)
                 {
-                    objectiveManager.classManager.UnlockClass(classToUnlock);
+                    objectiveManager.ObjectiveFinished(objectiveID);
                     Active(false);
-                    objectiveManager.NextObjective();
                 }
             }
         }
@@ -58,8 +57,13 @@ public class ObjectiveManager : MonoBehaviour
     public class NeutrophileObjective : ObjectiveTypeA
     {}
 
+    [System.Serializable]
+    public class DendriticCellObjective : ObjectiveTypeA
+    {}
+
     public MacrophageObjective macrophageObjective;
     public NeutrophileObjective neutrophileObjective;
+    public DendriticCellObjective dendriticCellObjective;
 
     void Start()
     {
@@ -68,6 +72,27 @@ public class ObjectiveManager : MonoBehaviour
 
         neutrophileObjective.Initialize();
         neutrophileObjective.objectiveManager = this;
+
+        dendriticCellObjective.Initialize();
+        dendriticCellObjective.objectiveManager = this;
+
+        NextObjective();
+    }
+
+    public void ObjectiveFinished(string objectiveID)
+    {
+        switch (objectiveID)                  
+        {
+        case "MacrophageObjective":
+            classManager.UnlockClass(2);
+            break;
+        case "NeutrophileObjective":
+            classManager.UnlockClass(3);
+            break;
+        default:
+            Debug.Log("Unknown Objective ID");
+            break;
+        }
 
         NextObjective();
     }
@@ -83,6 +108,9 @@ public class ObjectiveManager : MonoBehaviour
             break;
         case 2:
             neutrophileObjective.Active(true);
+            break;
+        case 3:
+            dendriticCellObjective.Active(true);
             break;
         default:
             Debug.Log("No More Objectives");

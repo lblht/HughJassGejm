@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.Escape) && !paused)
         {
             pauseMenu.SetActive(true);
         }
@@ -46,9 +46,17 @@ public class GameManager : MonoBehaviour
         case "Macrophage":
             objectiveManager.macrophageObjective.UpdateObjective();
             break;
+        case "Neutrophile":
+            objectiveManager.neutrophileObjective.UpdateObjective();
+            break;
         default:
             break;
         }
+    }
+
+    public void BacteriaPartCollected()
+    {
+        objectiveManager.dendriticCellObjective.UpdateObjective();
     }
 
     void UpdateBacteriaUI()
@@ -83,13 +91,20 @@ public class GameManager : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;  
     }
 
+    public void PauseGame()
+    {
+        Time.timeScale = 0;
+        paused = true;
+    }
+
+    public void UnPauseGame()
+    {
+        Time.timeScale = 1;
+        paused = false;
+    }
+
     public bool GetPause()
     {
         return paused;
-    }
-
-    public void SetPause(bool value)
-    {
-        paused = value;
     }
 }

@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class BacteriaPart : MonoBehaviour
 {
-    [SerializeField] private int partID;
     [SerializeField] private GameObject hintUI;
     [SerializeField] private Image circleUI;
 
@@ -29,7 +28,7 @@ public class BacteriaPart : MonoBehaviour
                 if(circleUI.fillAmount >= 1)
                 {
                     Destroy(gameObject);
-                    player.AddBacteriaPart(partID);
+                    GameManager.instance?.BacteriaPartCollected();
                 }
             }
             else if(Input.GetKeyUp(KeyCode.E))

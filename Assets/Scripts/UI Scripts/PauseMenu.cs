@@ -17,14 +17,13 @@ public class PauseMenu : MonoBehaviour
     void OnEnable()
     {
         GameManager.instance?.HideCursor(false);
-        GameManager.instance?.SetPause(true);
-        Time.timeScale = 0;
+        GameManager.instance?.PauseGame();
     }
 
     void OnDisable()
     {
         Time.timeScale = 1;
-        GameManager.instance?.SetPause(false);
+        GameManager.instance?.UnPauseGame();
     }
 
     public void Quit()

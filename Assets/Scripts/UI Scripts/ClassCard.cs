@@ -11,6 +11,7 @@ public class ClassCard : MonoBehaviour
     [SerializeField] private float cooldown;
     [SerializeField] private TextMeshProUGUI cooldownText;
     [SerializeField] private GameObject cooldownUI;
+    [SerializeField] private Sprite cardSprite;
 
     private bool locked;
     private float timer;
@@ -41,5 +42,10 @@ public class ClassCard : MonoBehaviour
         timer = cooldown;
         cooldownUI.SetActive(true);
         button.enabled = false;
+    }
+
+    public Sprite GetCardSprite()
+    {
+        return cardSprite;
     }
 }

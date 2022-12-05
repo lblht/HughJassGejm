@@ -65,6 +65,11 @@ public class ThirdPersonController : MonoBehaviour
         Gravity();
         ApplyMovement();
 
+        if(isGrounded)
+            animator?.SetBool("isGrounded", true);
+        else
+            animator?.SetBool("isGrounded", false);
+
         if(isGrounded && inputDirection != Vector3.zero && !sprinting)
             animator?.SetBool("walking", true);
         else
@@ -75,10 +80,7 @@ public class ThirdPersonController : MonoBehaviour
         else
             animator?.SetBool("running", false);
 
-        if(Input.GetKeyDown(KeyCode.G))
-        {
-            animator?.Play("Dance1");
-        }
+        Dances();
     }
 
     void GetInput()
@@ -155,6 +157,26 @@ public class ThirdPersonController : MonoBehaviour
     public Vector3 GetMoveDirection()
     {
         return moveDirection;
+    }
+
+    void Dances()
+    {
+        if(Input.GetKeyDown(KeyCode.Alpha1))
+            animator?.Play("Dance1");
+        if(Input.GetKeyDown(KeyCode.Alpha2))
+            animator?.Play("Dance2");
+        if(Input.GetKeyDown(KeyCode.Alpha3))
+            animator?.Play("Dance3");
+        if(Input.GetKeyDown(KeyCode.Alpha4))
+            animator?.Play("Dance4");
+        if(Input.GetKeyDown(KeyCode.Alpha5))
+            animator?.Play("Dance5");
+        if(Input.GetKeyDown(KeyCode.Alpha6))
+            animator?.Play("Dance6");
+        if(Input.GetKeyDown(KeyCode.Alpha7))
+            animator?.Play("Dance7");
+        if(Input.GetKeyDown(KeyCode.Alpha8))
+            animator?.Play("Dance8");
     }
 
     //debug

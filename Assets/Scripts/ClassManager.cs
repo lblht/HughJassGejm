@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.UI;
 
 public class ClassManager : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class ClassManager : MonoBehaviour
     [SerializeField] private ClassCard classCard2;
     [SerializeField] private ClassCard classCard3;
     [SerializeField] private ClassCard classCard4;
+    [SerializeField] private GameObject newClassScreen;
+    [SerializeField] private Image newClassImage;
 
     private bool selectingClass;
     private bool selectingLocation;
@@ -23,6 +26,7 @@ public class ClassManager : MonoBehaviour
 
     void Start()
     {
+        newClassScreen.SetActive(false);
         currentClassCard = classCard1;
         classCard1.Locked(false);
         classCard2.Locked(true);
@@ -106,20 +110,29 @@ public class ClassManager : MonoBehaviour
         switch (classID)                  
         {
         case 1:
-            classCard1.Locked(false);
+            UnlockCard(classCard1);
             break;
         case 2:
-            classCard2.Locked(false);
+            UnlockCard(classCard2);
             break;
         case 3:
-            classCard3.Locked(false);
+            UnlockCard(classCard3);
             break;
         case 4:
-            classCard4.Locked(false);
+            UnlockCard(classCard4);
             break;
         default:
             Debug.Log("Wrong Class ID!");
             break;
         }
+    }
+
+    void UnlockCard(ClassCard classCard)
+    {
+        classCard.Locked(false);
+        newClassImage.sprite = classCard.GetCardSprite();
+        newClassScreen.SetActive(true);
+        GameManager.instance.HideCursor(false);
+        GameManager.instance.PauseGame();
     }
 }

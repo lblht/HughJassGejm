@@ -52,6 +52,7 @@ public class Macrophage : MonoBehaviour
             {
                 hitCollider.gameObject.GetComponent<BacteriaDeath>().Die("Macrophage");
                 AddStamina(5f);
+                StartCoroutine("Expand");
             }
         }
     }
@@ -100,6 +101,34 @@ public class Macrophage : MonoBehaviour
     void UpdateUI()
     {
        slider.value = stamina; 
+    }
+
+    IEnumerator Expand()
+    {
+        bool expanding = true;
+        bool a = true;
+        float size = 1;
+        float rate = 0.02f;
+
+        while(a & expanding)
+        {
+            size += rate;
+            transform.localScale = new Vector3(size, transform.localScale.y, size);
+            if(size >= 1.3f)
+                a = false;
+            yield return null; 
+        }
+
+        while(!a & expanding)
+        {
+            size -= rate;
+            transform.localScale = new Vector3(size, transform.localScale.y, size);
+            if(size <= 1)
+                expanding = false;
+           yield return null; 
+        }
+
+        yield return null; 
     }
 
     void OnDrawGizmos()
