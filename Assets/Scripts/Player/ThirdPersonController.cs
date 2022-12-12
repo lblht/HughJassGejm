@@ -35,21 +35,17 @@ public class ThirdPersonController : MonoBehaviour
     private bool sprinting;
     private bool canSprint; 
 
-    void Start()
+    void Awake()
     {
         Cursor.lockState = CursorLockMode.Locked;
         camTransform = Camera.main.transform;
         speed = moveSpeed;
-    }
-
-    void OnEnable()
-    {
         thirdPersonCamera = Instantiate(thirdPersonCameraPrefab, transform.position, Quaternion.identity);
         thirdPersonCamera.GetComponent<CinemachineFreeLook>().Follow = transform;
         thirdPersonCamera.GetComponent<CinemachineFreeLook>().LookAt = transform;
     }
 
-    void OnDisable()
+    void OnDestroy()
     {
         Destroy(thirdPersonCamera, 5);
     }

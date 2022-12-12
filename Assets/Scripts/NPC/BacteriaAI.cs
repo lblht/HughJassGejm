@@ -30,12 +30,14 @@ public class BacteriaAI : MonoBehaviour
     private Food currentFood;       // referencia na momentálne jedlo
     private float eatTimer;         // uchováva hodnotu času ďalšieho odkusnutia
     private int resourceAmount;     // množstvo jedla ktoré zjedol
+    private float ragdollTimer;
 
     void Start()
     {
         GameManager.instance?.AddBacteria();
         state = States.LookingForFood;              // nastavenie stavu v ktorom začína
         targetPosition = RandomTargetPosition();
+        navMeshAgent.enabled = false;
     }
 
     void FixedUpdate()
@@ -68,16 +70,18 @@ public class BacteriaAI : MonoBehaviour
             break;
         }
 
-        if(navMeshAgent.enabled = true)
-            navMeshAgent.destination = targetPosition;      // nastavenie destinácie to NavMesh Agenta
-        AlignMeshWithGround();
-
-        if(navMeshAgent.enabled == false && Vector3.Distance(transform.position, player.position) > 5f)     // dočasná poistka
+        if(navMeshAgent.enabled == false && Time.time > ragdollTimer)     // dočasná poistka
         {
-            GetComponent<Rigidbody>().isKinematic = true;
-            GetComponent<Rigidbody>().useGravity = false;
-            navMeshAgent.enabled = true;
+            Ragdoll(false, 0f);
+            targetPosition = RandomTargetPosition();
         }
+
+        if(navMeshAgent.enabled == true)
+            navMeshAgent.destination = targetPosition;      // nastavenie destinácie to NavMesh Agenta
+
+
+
+        AlignMeshWithGround();
     }
     // funkcia volaná ak je v stave hladania jedla
     void LookingForFood()
@@ -239,6 +243,14 @@ public class BacteriaAI : MonoBehaviour
     void AlignMeshWithGround()
     {
         //TODO
+    }
+
+    public void Ragdoll(bool value, float delay)
+    {
+        GetComponent<Rigidbody>().useGravity = value;
+        GetComponent<Rigidbody>().isKinematic = !value;
+        GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = !value;
+        ragdollTimer = Time.time + delay;
     }
 
 
