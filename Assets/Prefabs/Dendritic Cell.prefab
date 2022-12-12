@@ -2801,6 +2801,10 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 8405522646971234677}
+    - target: {fileID: 7406302697618358793, guid: 0410e375a6a24544cae732fe5312b49f, type: 3}
+      propertyPath: jumpHeight
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7406302697618358796, guid: 0410e375a6a24544cae732fe5312b49f, type: 3}
       propertyPath: m_Name
       value: Dendritic Cell
