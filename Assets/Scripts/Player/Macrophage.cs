@@ -12,7 +12,7 @@ public class Macrophage : MonoBehaviour
 
     private bool canEat;
     private bool eating;
-    private float stamina = 100;
+    public float stamina = 100;
 
     void Update()
     {

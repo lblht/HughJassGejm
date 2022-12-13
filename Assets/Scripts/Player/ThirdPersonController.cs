@@ -9,9 +9,9 @@ public class ThirdPersonController : MonoBehaviour
 {
     [SerializeField] private CharacterController controller;    // referencia na character controller
     [SerializeField] private GameObject thirdPersonCameraPrefab;
-    [SerializeField] private float moveSpeed;                   // rýchlosť chôdze
-    [SerializeField] private float jumpHeight;                  // výška skoku
-    [SerializeField] private float sprintSpeed;                 // rýchlosť šprintu
+    [SerializeField] public float moveSpeed;                   // rýchlosť chôdze
+    [SerializeField] public float jumpHeight;                  // výška skoku
+    [SerializeField] public float sprintSpeed;                 // rýchlosť šprintu
     [SerializeField] private LayerMask groundLayer;             // vrstva coliderov na ktorých môže chodiť
     [SerializeField] private Animator animator;   
 

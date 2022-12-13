@@ -1869,6 +1869,37 @@ Transform:
   m_Father: {fileID: 8498145278703027699}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6948593599974478438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3034557550250430639}
+  m_Layer: 6
+  m_Name: Poison Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3034557550250430639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6948593599974478438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.477, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3156969310876467976}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6999805344400583395
 GameObject:
   m_ObjectHideFlags: 0
@@ -2347,3 +2378,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7406302697618358799, guid: 0410e375a6a24544cae732fe5312b49f, type: 3}
   m_PrefabInstance: {fileID: 5550607154892062983}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3156969310876467979 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7406302697618358796, guid: 0410e375a6a24544cae732fe5312b49f, type: 3}
+  m_PrefabInstance: {fileID: 5550607154892062983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-2595760707121357960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3156969310876467979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c245d9df8cf80d44bed3b9057bceba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poisonSpawnPoint: {fileID: 3034557550250430639}
+  PoisonArea: {fileID: 7609717910208509138, guid: d2b3d03b2b7580642bd018c04781692a, type: 3}

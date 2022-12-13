@@ -7547,7 +7547,7 @@ MonoBehaviour:
   class1Prefab: {fileID: 5057315878299707578, guid: 25adadca1da77f8448e9a543937bedd4, type: 3}
   class2Prefab: {fileID: 3156969310876467979, guid: 8c986cde9a47bb14ca02a088121169ba, type: 3}
   class3Prefab: {fileID: 2798715674218466951, guid: 2d8ab195b01617241b9fd2cd7a8ba2b0, type: 3}
-  class4Prefab: {fileID: 7406302697618358796, guid: 0410e375a6a24544cae732fe5312b49f, type: 3}
+  class4Prefab: {fileID: 643182444888523533, guid: c9730dd1b7aab764cb3690d69cade7ce, type: 3}
   classCard1: {fileID: 8821068013490219889}
   classCard2: {fileID: 8358871064024760796}
   classCard3: {fileID: 2323893974326724908}
