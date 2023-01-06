@@ -5,6 +5,7 @@ using UnityEngine;
 public class BloodCurrent : MonoBehaviour
 {
     [SerializeField] ThirdPersonController thirdPersonController;
+    [SerializeField] PlayerMovement firstPersonController;
     [SerializeField] Animator animator;
     private bool inTunnel;
     private Collider bloodCurrent;
@@ -13,16 +14,28 @@ public class BloodCurrent : MonoBehaviour
     {
         if(Input.GetButton("Jump") && inTunnel)
         {
-            thirdPersonController.enabled = false;
+            if(thirdPersonController != null)
+            {
+                thirdPersonController.enabled = false;
+                animator.SetBool("flying", true);
+            }
+
+            if(firstPersonController != null)
+                firstPersonController.enabled = false;
+
             transform.position += bloodCurrent.transform.forward * Time.deltaTime * 20;
-            animator.SetBool("flying", true);
             Vector3 newDirection = Vector3.RotateTowards(transform.forward, bloodCurrent.transform.forward, 0.1f, 0.0f);
             transform.rotation = Quaternion.LookRotation(newDirection);
         }
         else
         {
-            thirdPersonController.enabled = true;
-            animator.SetBool("flying", false);
+            if(thirdPersonController != null)
+            {
+                thirdPersonController.enabled = true;
+                animator.SetBool("flying", false);
+            }
+            if(firstPersonController != null)
+                firstPersonController.enabled = true;
         }
     }
 

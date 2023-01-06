@@ -18,7 +18,7 @@ public class PlateletAI : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(Vector3.Distance(transform.position, targetPosition) < 5f)
+        if(Vector3.Distance(transform.position, targetPosition) < 2f)
         {
             up = true;
             navMeshAgent.enabled = false;

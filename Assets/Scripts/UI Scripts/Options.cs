@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
+using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class Options : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public AudioMixer audioMixer;
+    
+    public void ChangeLanguage(int langID)
     {
-        
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[langID];
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetVolume(float volume)
     {
-        
+        audioMixer.SetFloat("MainVolume", volume);
     }
 }
