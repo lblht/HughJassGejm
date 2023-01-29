@@ -1111,7 +1111,7 @@ AnimationClip:
   m_Events:
   - time: 9
     functionName: LoadLevel
-    data: SampleScene
+    data: LevelTest
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

@@ -53,8 +53,6 @@ public class GameManager : MonoBehaviour
         {
             pauseMenu.SetActive(true);
         }
-
-        
     }
 
     public void AddBacteria()
