@@ -5970,7 +5970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   classManager: {fileID: 5558739259790289810}
   macrophageObjective:
-    required: 3
+    required: 10
     progressText: {fileID: 8562437461282101581}
     requiredText: {fileID: 5590232354076784420}
     objectiveUI: {fileID: 590420112514404580}
@@ -5978,7 +5978,7 @@ MonoBehaviour:
     objectiveManager: {fileID: 0}
     active: 0
   neutrophileObjective:
-    required: 1
+    required: 5
     progressText: {fileID: 6120635285613625536}
     requiredText: {fileID: 7163313962566269722}
     objectiveUI: {fileID: 1720278330587752616}
@@ -5986,7 +5986,7 @@ MonoBehaviour:
     objectiveManager: {fileID: 0}
     active: 0
   dendriticCellObjective:
-    required: 1
+    required: 5
     progressText: {fileID: 2451224994887077191}
     requiredText: {fileID: 2867694967877555027}
     objectiveUI: {fileID: 1540572373899571649}
@@ -5994,7 +5994,7 @@ MonoBehaviour:
     objectiveManager: {fileID: 0}
     active: 0
   tCellObjective:
-    required: 5
+    required: 20
     progressText: {fileID: 7466331391381790312}
     requiredText: {fileID: 5686444395440205477}
     objectiveUI: {fileID: 2625613472951734176}

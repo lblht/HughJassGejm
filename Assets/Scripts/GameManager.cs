@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     private int resourceAmount;
     private bool paused;
 
-    public int bacteriaKilledCount = 10;
+    public int bacteriaKilledCount = 0;
 
     public bool prak=true;
     public bool luk=false;

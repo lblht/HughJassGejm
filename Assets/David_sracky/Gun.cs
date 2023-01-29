@@ -7,6 +7,7 @@ public class Gun : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed = 50;
 
+    
 
 
     public float damage = 10f;
@@ -24,6 +25,7 @@ public class Gun : MonoBehaviour
     void Start()
     {
         currentAmmo = maxAmmo;
+        Reload();
     }
 
     // Update is called once per frame
@@ -68,6 +70,7 @@ public class Gun : MonoBehaviour
     {
         
         currentAmmo--;
+        
 
 
         // RaycastHit hit;

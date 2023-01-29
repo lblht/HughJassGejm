@@ -15,19 +15,20 @@ public class WeaponSwitching : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(GameManager.instance.bacteriaKilledCount);
+        //Debug.Log(GameManager.instance.bacteriaKilledCount);
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             selectedWeapon=0;
             selectWeapon();
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2) && transform.childCount >=2 && GameManager.instance.bacteriaKilledCount >=1)
+        //&& GameManager.instance.bacteriaKilledCount >=1
+        if (Input.GetKeyDown(KeyCode.Alpha2) && transform.childCount >=2 )
         {
             selectedWeapon=1;
             selectWeapon();
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3) && transform.childCount >=3 && GameManager.instance.bacteriaKilledCount >=3)
+        if (Input.GetKeyDown(KeyCode.Alpha3) && transform.childCount >=3 )
         {
             selectedWeapon=2;
             selectWeapon();

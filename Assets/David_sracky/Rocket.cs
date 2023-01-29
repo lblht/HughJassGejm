@@ -4,7 +4,7 @@ using UnityEngine;
  
 public class Rocket : MonoBehaviour
 {
-    public float life = 3f;
+    public float life = 10f;
     public float explosionRadius = 2f;
     public Transform explosionPrefab;
     
@@ -12,7 +12,7 @@ public class Rocket : MonoBehaviour
     void Awake()
     {
         
-        
+        //Destroy(gameObject,life);
     }
  
     void OnCollisionEnter(Collision collision)

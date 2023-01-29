@@ -29,9 +29,9 @@ public class ClassManager : MonoBehaviour
         newClassScreen.SetActive(false);
         currentClassCard = classCard1;
         classCard1.Locked(false);
-        classCard2.Locked(false);
-        classCard3.Locked(false);
-        classCard4.Locked(false);
+        classCard2.Locked(true);
+        classCard3.Locked(true);
+        classCard4.Locked(true);
     }
 
     void Update()

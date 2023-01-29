@@ -4313,6 +4313,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: First Person Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1526558667580248058, guid: c9730dd1b7aab764cb3690d69cade7ce,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526558667580248058, guid: c9730dd1b7aab764cb3690d69cade7ce,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116187235016680202, guid: c9730dd1b7aab764cb3690d69cade7ce,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.396
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116187235016680202, guid: c9730dd1b7aab764cb3690d69cade7ce,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.066
+      objectReference: {fileID: 0}
     - target: {fileID: 5493791220065498626, guid: c9730dd1b7aab764cb3690d69cade7ce,
         type: 3}
       propertyPath: m_LocalPosition.y

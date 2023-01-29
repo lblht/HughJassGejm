@@ -26,6 +26,7 @@ public class RocketGun : MonoBehaviour
     void Start()
     {
         currentAmmo = maxAmmo;
+        Reload();
     }
 
     // Update is called once per frame
@@ -84,7 +85,7 @@ public class RocketGun : MonoBehaviour
         //     }
         
          var rocket = Instantiate(rocketPrefab,rocketSpawnPoint.position, rocketRotation.rotation );
-             //rocket.GetComponent<Rigidbody>().velocity = rocketSpawnPoint.forward * rocketSpeed;
+             rocket.GetComponent<Rigidbody>().velocity = rocketSpawnPoint.forward * rocketSpeed;
 
        
 
