@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4876052886471302328}
   - component: {fileID: 4876052886471302329}
   - component: {fileID: 4876052886471302334}
-  - component: {fileID: -4968316004344714894}
+  - component: {fileID: 4709428994969761729}
   m_Layer: 0
   m_Name: ResetStamina
   m_TagString: Untagged
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupEffect: {fileID: 11400000, guid: 70b26e76d33b1024e9d084c2c25c2204, type: 2}
---- !u!114 &-4968316004344714894
+--- !u!114 &4709428994969761729
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,8 +121,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4876052886471302331}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f308fdbe50093664684805a64691d826, type: 3}
+  m_Script: {fileID: 11500000, guid: 3434494dda030a6448fa45d4f2621f04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
-  frequency: 1
+  speed: 50
+  amplitude: 0.3
+  frequency: 0.5
