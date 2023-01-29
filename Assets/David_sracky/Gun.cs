@@ -1,11 +1,16 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 public class Gun : MonoBehaviour
 {
     public Transform bulletSpawnPoint;
     public GameObject bulletPrefab;
     public float bulletSpeed = 50;
+    
+    public WeaponSwitching weaponSwitching;
+
+    public TextMeshProUGUI ammoDisplay;
 
     
 
@@ -25,12 +30,14 @@ public class Gun : MonoBehaviour
     void Start()
     {
         currentAmmo = maxAmmo;
+        ammoDisplay.text = currentAmmo.ToString() + " / " + maxAmmo.ToString();
         Reload();
     }
 
     // Update is called once per frame
     void Update()
     {
+        weaponSwitching.reloading = isReloading;
 
         if(isReloading)
         {
@@ -61,6 +68,7 @@ public class Gun : MonoBehaviour
         currentAmmo = maxAmmo;
 
         isReloading = false;
+        ammoDisplay.text = currentAmmo.ToString() + " / " + maxAmmo.ToString();
 
     }
 
@@ -70,6 +78,7 @@ public class Gun : MonoBehaviour
     {
         
         currentAmmo--;
+        ammoDisplay.text = currentAmmo.ToString() + " / " + maxAmmo.ToString();
         
 
 

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 public class Bow : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class Bow : MonoBehaviour
 
     public GameObject arrowPrefab;
     public float arrowSpeed = 70;
+
+     public TextMeshProUGUI ammoDisplay;
+
+     public WeaponSwitching weaponSwitching;
 
 
 
@@ -26,6 +31,7 @@ public class Bow : MonoBehaviour
     void Start()
     {
         currentAmmo = maxAmmo;
+        ammoDisplay.text = currentAmmo.ToString() + " / " + maxAmmo.ToString();
         Reload();
     }
 
@@ -33,6 +39,8 @@ public class Bow : MonoBehaviour
     void Update()
     {
 
+        weaponSwitching.reloading = isReloading;
+        
         if(isReloading)
         {
             return;
@@ -62,6 +70,7 @@ public class Bow : MonoBehaviour
         currentAmmo = maxAmmo;
 
         isReloading = false;
+        ammoDisplay.text = currentAmmo.ToString() + " / " + maxAmmo.ToString();
 
     }
 
@@ -71,6 +80,7 @@ public class Bow : MonoBehaviour
     {
         
         currentAmmo--;
+        ammoDisplay.text = currentAmmo.ToString() + " / " + maxAmmo.ToString();
         
         
 

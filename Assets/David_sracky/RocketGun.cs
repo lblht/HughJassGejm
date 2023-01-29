@@ -1,13 +1,17 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 public class RocketGun : MonoBehaviour
 {
     public Transform rocketSpawnPoint;
     public Transform rocketRotation;
 
+    public WeaponSwitching weaponSwitching;
+
     public GameObject rocketPrefab;
     public float rocketSpeed = 50;
+    public TextMeshProUGUI ammoDisplay;
 
 
 
@@ -25,13 +29,16 @@ public class RocketGun : MonoBehaviour
 
     void Start()
     {
+        
         currentAmmo = maxAmmo;
+        ammoDisplay.text = currentAmmo.ToString() + " / " + maxAmmo.ToString();
         Reload();
     }
 
     // Update is called once per frame
     void Update()
     {
+        weaponSwitching.reloading = isReloading;
 
         if(isReloading)
         {
@@ -62,6 +69,7 @@ public class RocketGun : MonoBehaviour
         currentAmmo = maxAmmo;
 
         isReloading = false;
+        ammoDisplay.text = currentAmmo.ToString() + " / " + maxAmmo.ToString();
 
     }
 
@@ -71,6 +79,7 @@ public class RocketGun : MonoBehaviour
     {
         
         currentAmmo--;
+        Debug.Log("striela raketa");
 
 
         // RaycastHit hit;
@@ -86,6 +95,7 @@ public class RocketGun : MonoBehaviour
         
          var rocket = Instantiate(rocketPrefab,rocketSpawnPoint.position, rocketRotation.rotation );
              rocket.GetComponent<Rigidbody>().velocity = rocketSpawnPoint.forward * rocketSpeed;
+             ammoDisplay.text = currentAmmo.ToString() + " / " + maxAmmo.ToString();
 
        
 
