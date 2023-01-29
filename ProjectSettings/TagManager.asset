@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Shootable
+  - BacteriaPart
+  - BloodCurrent
+  - Bacteria
+  - Platelet
   layers:
   - Default
   - TransparentFX
@@ -14,7 +18,7 @@ TagManager:
   - UI
   - 
   - 
-  - Lighting
+  - Food
   - Ground
   - Postprocessing
   - 

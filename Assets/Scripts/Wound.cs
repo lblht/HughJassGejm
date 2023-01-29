@@ -32,6 +32,9 @@ public class Wound : MonoBehaviour
             size -= 0.01f;
             timerDelay += 0.5f;
             transform.localScale = new Vector3(size, size, transform.localScale.z);
+
+            if(size < 0.05f)
+                Destroy(gameObject);
         }
     }
 }
