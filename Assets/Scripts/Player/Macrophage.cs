@@ -17,7 +17,10 @@ public class Macrophage : MonoBehaviour
     void Update()
     {
         GetInput();
+    }
 
+    void FixedUpdate()
+    {
         if(eating && stamina > 0) 
             Eating();
             
@@ -57,14 +60,14 @@ public class Macrophage : MonoBehaviour
 
     void CheckStamina()
     {
-        if(stamina < 100)
-            AddStamina(Time.deltaTime * 2);
+        if(stamina < 100 && !eating && !thirdPersonController.IsSprinting())
+            AddStamina(Time.deltaTime * 12);
 
         if(thirdPersonController.IsSprinting() && thirdPersonController.GetMoveDirection().normalized != Vector3.zero)
-            RemoveStamina(0.03f);
+            RemoveStamina(0.2f);
 
         if(eating)
-            RemoveStamina(0.05f);
+            RemoveStamina(0.3f);
 
         if(stamina <= 0)
         {
