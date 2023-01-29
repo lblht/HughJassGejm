@@ -84,7 +84,7 @@ public class RocketGun : MonoBehaviour
         //     }
         
          var rocket = Instantiate(rocketPrefab,rocketSpawnPoint.position, rocketRotation.rotation );
-             rocket.GetComponent<Rigidbody>().velocity = rocketSpawnPoint.forward * rocketSpeed;
+             //rocket.GetComponent<Rigidbody>().velocity = rocketSpawnPoint.forward * rocketSpeed;
 
        
 

@@ -69,7 +69,8 @@ MonoBehaviour:
   m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -521,7 +522,8 @@ MonoBehaviour:
   m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1192,7 +1194,8 @@ MonoBehaviour:
   m_text: Neutrophile
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1404,7 +1407,8 @@ MonoBehaviour:
   m_text: 'Main Objective:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1621,7 +1625,8 @@ MonoBehaviour:
   m_text: 'Eat bacteria:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2028,7 +2033,8 @@ MonoBehaviour:
     euio hgioueh goiue h ioguhi ehruiog heiu hgiuerh giueh g iueh
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2165,7 +2171,8 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2610,7 +2617,8 @@ MonoBehaviour:
   m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2745,7 +2753,8 @@ MonoBehaviour:
   m_text: Level UP
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2957,7 +2966,8 @@ MonoBehaviour:
   m_text: Options
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3172,7 +3182,8 @@ MonoBehaviour:
   m_text: Protect the body from bacteria
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3425,7 +3436,8 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3560,7 +3572,8 @@ MonoBehaviour:
   m_text: New card unlocked!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3698,7 +3711,8 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3873,7 +3887,8 @@ MonoBehaviour:
   m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4010,7 +4025,8 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4445,7 +4461,8 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4804,7 +4821,8 @@ MonoBehaviour:
     euio hgioueh goiue h ioguhi ehruiog heiu hgiuerh giueh g iueh
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5253,7 +5271,8 @@ MonoBehaviour:
   m_text: Number Of Bacteria
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5905,6 +5924,10 @@ MonoBehaviour:
   slider: {fileID: 5558739259342890457}
   pauseMenu: {fileID: 288811419728915488}
   objectiveManager: {fileID: 7409163411665998364}
+  bacteriaKilledCount: 0
+  prak: 1
+  luk: 0
+  bazuka: 1
 --- !u!114 &5558739259790289810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5919,10 +5942,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   classSelectionAnimator: {fileID: 5558739260435565826}
   selectionCamera: {fileID: 5558739260694874129}
-  class1Prefab: {fileID: 5057315878299707578, guid: 25adadca1da77f8448e9a543937bedd4, type: 3}
-  class2Prefab: {fileID: 3156969310876467979, guid: 8c986cde9a47bb14ca02a088121169ba, type: 3}
-  class3Prefab: {fileID: 2798715674218466951, guid: 2d8ab195b01617241b9fd2cd7a8ba2b0, type: 3}
-  class4Prefab: {fileID: 643182444888523533, guid: c9730dd1b7aab764cb3690d69cade7ce, type: 3}
+  class1Prefab: {fileID: 5057315878299707578, guid: 25adadca1da77f8448e9a543937bedd4,
+    type: 3}
+  class2Prefab: {fileID: 3156969310876467979, guid: 8c986cde9a47bb14ca02a088121169ba,
+    type: 3}
+  class3Prefab: {fileID: 2798715674218466951, guid: 2d8ab195b01617241b9fd2cd7a8ba2b0,
+    type: 3}
+  class4Prefab: {fileID: 643182444888523533, guid: c9730dd1b7aab764cb3690d69cade7ce,
+    type: 3}
   classCard1: {fileID: 8821068013490219889}
   classCard2: {fileID: 8358871064024760796}
   classCard3: {fileID: 2323893974326724908}
@@ -5943,7 +5970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   classManager: {fileID: 5558739259790289810}
   macrophageObjective:
-    required: 10
+    required: 3
     progressText: {fileID: 8562437461282101581}
     requiredText: {fileID: 5590232354076784420}
     objectiveUI: {fileID: 590420112514404580}
@@ -5951,7 +5978,7 @@ MonoBehaviour:
     objectiveManager: {fileID: 0}
     active: 0
   neutrophileObjective:
-    required: 20
+    required: 1
     progressText: {fileID: 6120635285613625536}
     requiredText: {fileID: 7163313962566269722}
     objectiveUI: {fileID: 1720278330587752616}
@@ -5959,11 +5986,19 @@ MonoBehaviour:
     objectiveManager: {fileID: 0}
     active: 0
   dendriticCellObjective:
-    required: 15
+    required: 1
     progressText: {fileID: 2451224994887077191}
     requiredText: {fileID: 2867694967877555027}
     objectiveUI: {fileID: 1540572373899571649}
     objectiveID: DendriticCellObjective
+    objectiveManager: {fileID: 0}
+    active: 0
+  tCellObjective:
+    required: 5
+    progressText: {fileID: 7466331391381790312}
+    requiredText: {fileID: 5686444395440205477}
+    objectiveUI: {fileID: 2625613472951734176}
+    objectiveID: TCellObjective
     objectiveManager: {fileID: 0}
     active: 0
 --- !u!1 &5558739259840935890
@@ -6140,7 +6175,8 @@ MonoBehaviour:
   m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6664,7 +6700,8 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6801,7 +6838,8 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7071,7 +7109,8 @@ MonoBehaviour:
     euio hgioueh goiue h ioguhi ehruiog heiu hgiuerh giueh g iueh
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7206,7 +7245,8 @@ MonoBehaviour:
   m_text: 'Collect parts of eaten bacteria:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7343,7 +7383,8 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7554,7 +7595,8 @@ MonoBehaviour:
   m_text: T-Cell
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7689,7 +7731,8 @@ MonoBehaviour:
   m_text: Macrophage
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7825,7 +7868,8 @@ MonoBehaviour:
   m_text: Macrophage
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8003,7 +8047,8 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8216,7 +8261,8 @@ MonoBehaviour:
   m_text: Dendritic Cell
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8427,7 +8473,8 @@ MonoBehaviour:
   m_text: Neutrophile
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8828,7 +8875,8 @@ MonoBehaviour:
   m_text: Tab
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9192,7 +9240,8 @@ MonoBehaviour:
     euio hgioueh goiue h ioguhi ehruiog heiu hgiuerh giueh g iueh
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9523,7 +9572,8 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9658,7 +9708,8 @@ MonoBehaviour:
   m_text: 'Collect parts of eaten bacteria:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9793,7 +9844,8 @@ MonoBehaviour:
   m_text: 'Kill bacteria:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9928,7 +9980,8 @@ MonoBehaviour:
   m_text: Dendritic Cell
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
-  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14, type: 2}
+  m_sharedMaterial: {fileID: 3800269770158487758, guid: fa50cb5ff5b10794096487582b701f14,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10001,123 +10054,153 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8954479632065778817}
     m_Modifications:
-    - target: {fileID: 8770913959458250750, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913959458250750, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913959458250750, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913959458250750, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913959458250750, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913959458250750, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_AnchorMin.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960172882912, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960172882912, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960172882912, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960172882912, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336528, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336528, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_Name
       value: Options Panel
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336528, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336528, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_SizeDelta.x
       value: -1438
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_SizeDelta.y
       value: -446.95
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8770913961112372293, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913961112372293, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 9099094183595378401}
-    - target: {fileID: 8770913961112372293, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+    - target: {fileID: 8770913961112372293, guid: f9dbade097893a448834a94d8ad6c321,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
@@ -10125,11 +10208,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
 --- !u!1 &6057361993505803768 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 8770913960883336528, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8770913960883336528, guid: f9dbade097893a448834a94d8ad6c321,
+    type: 3}
   m_PrefabInstance: {fileID: 3290048187857549480}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &6057361993505803771 stripped
 RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
+    type: 3}
   m_PrefabInstance: {fileID: 3290048187857549480}
   m_PrefabAsset: {fileID: 0}

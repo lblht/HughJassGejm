@@ -6,6 +6,7 @@ using UnityEngine.AI;
 //komentar jak blazen
 public class BacteriaAI : MonoBehaviour
 {
+    
     [SerializeField] private Animator animator;   
     [SerializeField] private NavMeshAgent navMeshAgent;     // referencia na NavMesh Agent
     [SerializeField] private float slowSpeed;               // rýchlosť ked hľadá jednlo

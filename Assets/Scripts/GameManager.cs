@@ -17,6 +17,31 @@ public class GameManager : MonoBehaviour
     private int resourceAmount;
     private bool paused;
 
+    public int bacteriaKilledCount = 10;
+
+    public bool prak=true;
+    public bool luk=false;
+    public bool bazuka=false;
+
+    public void setBazuka (bool value)
+    {
+        bazuka = value;
+    }
+    public bool getBazuka()
+    {
+        return bazuka;
+    }
+
+    public void setLuk (bool value)
+    {
+        luk = value;
+    }
+    public bool getLuk()
+    {
+        return luk;
+    }
+
+
     void Awake()
     {
         instance = this;        // Toto bude robiť problemy možno treba to inak prešpekulovať
@@ -28,6 +53,8 @@ public class GameManager : MonoBehaviour
         {
             pauseMenu.SetActive(true);
         }
+
+        
     }
 
     public void AddBacteria()
@@ -38,6 +65,7 @@ public class GameManager : MonoBehaviour
 
     public void RemoveBacteria(string responsible)
     {
+        
         numberOfBacteria--;
         UpdateBacteriaUI();
 
@@ -49,6 +77,10 @@ public class GameManager : MonoBehaviour
         case "Neutrophile":
             objectiveManager.neutrophileObjective.UpdateObjective();
             break;
+        case "TCell":
+            objectiveManager.tCellObjective.UpdateObjective();
+            bacteriaKilledCount++;
+            break;
         default:
             break;
         }
@@ -58,6 +90,7 @@ public class GameManager : MonoBehaviour
     {
         objectiveManager.dendriticCellObjective.UpdateObjective();
     }
+    
 
     void UpdateBacteriaUI()
     {

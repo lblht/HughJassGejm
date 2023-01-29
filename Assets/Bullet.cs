@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float life = 3;
+    public int damage =3;
     
     void Awake()
     {
@@ -17,7 +18,7 @@ public class Bullet : MonoBehaviour
 
         if(collision.gameObject.tag=="Bacteria")
         {
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<BacteriaDeath>().takeDamage(damage,"TCell");
         }
         Destroy(gameObject);
     }

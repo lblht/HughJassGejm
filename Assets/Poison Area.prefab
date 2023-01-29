@@ -70,6 +70,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 10
+  damageTime: 1
+  damage: 1
 --- !u!1 &7609717911351290683
 GameObject:
   m_ObjectHideFlags: 0

@@ -61,9 +61,14 @@ public class ObjectiveManager : MonoBehaviour
     public class DendriticCellObjective : ObjectiveTypeA
     {}
 
+    [System.Serializable]
+    public class TCellObjective : ObjectiveTypeA
+    {}
+
     public MacrophageObjective macrophageObjective;
     public NeutrophileObjective neutrophileObjective;
     public DendriticCellObjective dendriticCellObjective;
+    public TCellObjective tCellObjective;
 
     void Start()
     {
@@ -76,6 +81,9 @@ public class ObjectiveManager : MonoBehaviour
         dendriticCellObjective.Initialize();
         dendriticCellObjective.objectiveManager = this;
 
+        tCellObjective.Initialize();
+        tCellObjective.objectiveManager = this;
+
         NextObjective();
     }
 
@@ -86,8 +94,14 @@ public class ObjectiveManager : MonoBehaviour
         case "MacrophageObjective":
             classManager.UnlockClass(2);
             break;
-        case "NeutrophileObjective":
+        case "NeutrophileObjective":            
             classManager.UnlockClass(3);
+            break;
+        case "DendriticCellObjective":
+            classManager.UnlockClass(4);
+            break;
+        case "TCellObjective":
+            // GameManager.instance.setBazuka(true);            
             break;
         default:
             Debug.Log("Unknown Objective ID");
@@ -111,6 +125,9 @@ public class ObjectiveManager : MonoBehaviour
             break;
         case 3:
             dendriticCellObjective.Active(true);
+            break;
+        case 4:
+            tCellObjective.Active(true);
             break;
         default:
             Debug.Log("No More Objectives");
