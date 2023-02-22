@@ -181,7 +181,7 @@ NavMeshAgent:
   m_ObstacleAvoidanceType: 4
 --- !u!95 &3624520346302530581
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -198,7 +198,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!54 &2837615868746740865
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -274,13 +274,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 751b3737c1d2a7845bfd4955475298e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropChance: 20
-  parts:
-  - {fileID: 577222525358914229, guid: fcea0a02a8ba68247a7ff39cf186a2e9, type: 3}
-  - {fileID: 577222525358914229, guid: fcea0a02a8ba68247a7ff39cf186a2e9, type: 3}
-  - {fileID: 577222525358914229, guid: fcea0a02a8ba68247a7ff39cf186a2e9, type: 3}
-  - {fileID: 577222525358914229, guid: fcea0a02a8ba68247a7ff39cf186a2e9, type: 3}
-  - {fileID: 577222525358914229, guid: fcea0a02a8ba68247a7ff39cf186a2e9, type: 3}
+  dropChance: 50
+  part: {fileID: 577222525358914229, guid: fcea0a02a8ba68247a7ff39cf186a2e9, type: 3}
 --- !u!1 &6152513395260397016
 GameObject:
   m_ObjectHideFlags: 0

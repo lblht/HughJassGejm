@@ -5,73 +5,51 @@ using UnityEngine;
 public class Neutrophile : MonoBehaviour
 {
     public Transform poisonSpawnPoint;
-    public GameObject PoisonArea;
+    public GameObject poisonArea;
+
+    public GameObject poisonEmitArea;
+    public ParticleSystem poisonEmitEffect;
 
     public float cooldownTime=10;
     public int maxPoisonAmmo = 3;
     
-    private int currentPoisonAmmo;
-    private bool isRecharging = false;
+    private bool poisonCharged = true;
 
-    void Start()
+
+    void Update()
     {
-        currentPoisonAmmo = maxPoisonAmmo;
-    }
-
-void Update()
-    {
-
-
-
-        if(isRecharging)
-        {
-            return;
+        if(Input.GetMouseButtonDown(0))
+        {  
+           poisonEmitArea.SetActive(true);
+           poisonEmitEffect.Play();
         }
 
-        if (Input.GetButtonDown("Fire1"))
-        {
-            
-            ReleasePoison();
-            
+        if(Input.GetMouseButtonUp(0))
+        {  
+           poisonEmitArea.SetActive(false);
+           poisonEmitEffect.Stop();
         }
-        if (currentPoisonAmmo <= 0)
-        {
+
+        if((Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.E)) && poisonCharged)
+        {  
+            ReleasePoison();  
             StartCoroutine(ReloadPoison());
-            return;
         }
-
-        
-        
     }
 
     IEnumerator ReloadPoison()
     {
-        isRecharging = true;
+        poisonCharged = false;
 
         Debug.Log("Reloading Poison");
 
         yield return new WaitForSeconds(cooldownTime);
 
-        currentPoisonAmmo = maxPoisonAmmo;
-
-        isRecharging = false;
-
-
-
-
-        
-
+        poisonCharged = true;
     }
 
     void ReleasePoison()
     {
-        
-       currentPoisonAmmo--;
-
-        var poison = Instantiate(PoisonArea, poisonSpawnPoint.position, poisonSpawnPoint.rotation);
-        
-
+        var poison = Instantiate(poisonArea, poisonSpawnPoint.position, poisonSpawnPoint.rotation);
     }
-
-
 }

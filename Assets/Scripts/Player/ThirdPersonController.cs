@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
-//test
-
 public class ThirdPersonController : MonoBehaviour
 {
-    [SerializeField] private CharacterController controller;    // referencia na character controller
+    public CharacterController controller;    // referencia na character controller
+    public Animator animator;   
     [SerializeField] private GameObject thirdPersonCameraPrefab;
     [SerializeField] public float moveSpeed;                   // rýchlosť chôdze
     [SerializeField] public float jumpHeight;                  // výška skoku
     [SerializeField] public float sprintSpeed;                 // rýchlosť šprintu
     [SerializeField] private LayerMask groundLayer;             // vrstva coliderov na ktorých môže chodiť
-    [SerializeField] private Animator animator;   
+    [SerializeField] private GameObject speedEffect;   
+    [SerializeField] private GameObject walkUI;   
+    [SerializeField] private GameObject runUI;   
 
     private Transform camTransform;            // referencia na transform kamery   
     private GameObject thirdPersonCamera;
@@ -30,10 +31,9 @@ public class ThirdPersonController : MonoBehaviour
     private float gravity = -9.8f;
     private float groundCheckOffset = 0.8f;                    // vrstva coliderov na ktorých môže chodiť
     private float groundCheckSize = 0.4f;                     // vrstva coliderov na ktorých môže chodiť
-    private bool isGrounded;
     private float speed;
-    private bool sprinting;
-    private bool canSprint; 
+    private bool sprinting = false;
+    private bool canSprint = true; 
 
     void Awake()
     {
@@ -43,6 +43,9 @@ public class ThirdPersonController : MonoBehaviour
         thirdPersonCamera = Instantiate(thirdPersonCameraPrefab, transform.position, Quaternion.identity);
         thirdPersonCamera.GetComponent<CinemachineFreeLook>().Follow = transform;
         thirdPersonCamera.GetComponent<CinemachineFreeLook>().LookAt = transform;
+        animator.SetFloat("walkSpeedMultiplayer", moveSpeed/2);
+        animator.SetFloat("runSpeedMultiplayer", sprintSpeed/5);
+        ChangeSprintUI();
     }
 
     void OnDestroy()
@@ -52,7 +55,6 @@ public class ThirdPersonController : MonoBehaviour
 
     void Update()
     {
-        isGrounded = Physics.CheckSphere(transform.position - new Vector3(0f, groundCheckOffset, 0f), groundCheckSize, groundLayer);
   
         GetInput();
 
@@ -61,22 +63,24 @@ public class ThirdPersonController : MonoBehaviour
         Gravity();
         ApplyMovement();
 
-        if(isGrounded)
+        if(IsGrounded())
             animator?.SetBool("isGrounded", true);
         else
             animator?.SetBool("isGrounded", false);
 
-        if(isGrounded && inputDirection != Vector3.zero && !sprinting)
+        if(IsGrounded() && inputDirection != Vector3.zero && !sprinting)
             animator?.SetBool("walking", true);
         else
             animator?.SetBool("walking", false);
         
-        if(isGrounded && inputDirection != Vector3.zero && sprinting)
+        if(IsGrounded() && inputDirection != Vector3.zero && sprinting)
             animator?.SetBool("running", true);
         else
             animator?.SetBool("running", false);
 
         Dances();
+
+        SpeedEffect();
     }
 
     void GetInput()
@@ -85,16 +89,17 @@ public class ThirdPersonController : MonoBehaviour
         verticalInput = Input.GetAxisRaw("Vertical");
         inputDirection = new Vector3(horizontalInput, 0f, verticalInput).normalized;
 
-        if(Input.GetButtonDown("Jump") && isGrounded)
+        if(Input.GetButtonDown("Jump") && IsGrounded())
         {
             Jump();
             animator?.SetTrigger("jump");
         }
 
-        if(Input.GetKey(KeyCode.LeftShift) && canSprint)
-            sprinting = true;
-        else
-            sprinting = false;
+        if(Input.GetKeyDown(KeyCode.LeftShift) && canSprint)
+        {
+            sprinting = !sprinting;
+            ChangeSprintUI();
+        }
 
         if(sprinting && !canSprint)
             sprinting = false;
@@ -102,7 +107,7 @@ public class ThirdPersonController : MonoBehaviour
 
     void Gravity()
     {
-        if(!isGrounded)
+        if(!IsGrounded())
             velocity.y += gravity * Time.deltaTime;
         else if(velocity.y < 0)
             velocity.y = -2f;
@@ -173,6 +178,34 @@ public class ThirdPersonController : MonoBehaviour
             animator?.Play("Dance7");
         if(Input.GetKeyDown(KeyCode.Alpha8))
             animator?.Play("Dance8");
+    }
+
+    void SpeedEffect()
+    {
+        if(speed > 8 && GetMoveDirection().normalized != Vector3.zero)
+            speedEffect.SetActive(true);
+        else
+            speedEffect.SetActive(false);
+    }
+
+    public bool IsGrounded()
+    {
+        return Physics.CheckSphere(transform.position - new Vector3(0f, groundCheckOffset, 0f), groundCheckSize, groundLayer);
+    }
+
+    void ChangeSprintUI()
+    {
+        if(sprinting)
+        {
+            runUI.SetActive(true);
+            walkUI.SetActive(false);
+        }
+
+        if(!sprinting)
+        {
+            runUI.SetActive(false);
+            walkUI.SetActive(true);
+        }
     }
 
     //debug

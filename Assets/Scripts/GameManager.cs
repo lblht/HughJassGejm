@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI numberOfBacteriaTextUI;
     [SerializeField] private Slider slider;  
     [SerializeField] private GameObject pauseMenu; 
+    [SerializeField] private GameObject gameOverScreen; 
     [SerializeField] private ObjectiveManager objectiveManager; 
 
     private int numberOfBacteria;
@@ -22,6 +23,11 @@ public class GameManager : MonoBehaviour
     public bool prak=true;
     public bool luk=false;
     public bool bazuka=false;
+
+    void Start()
+    {
+        Application.targetFrameRate = 80;
+    }
 
     public void setBazuka (bool value)
     {
@@ -100,13 +106,20 @@ public class GameManager : MonoBehaviour
         resourceAmount++;
         slider.maxValue = resourceAmount;
         UpdateResourceUI();
-
     }
 
     public void RemoveRecource()
     {
         resourceAmount--;
         UpdateResourceUI();
+
+        if(resourceAmount <= 0)
+        {
+            gameOverScreen.SetActive(true);
+
+            //potom prerobit
+            Destroy(gameOverScreen, 10f);
+        }
     }
 
     void UpdateResourceUI()

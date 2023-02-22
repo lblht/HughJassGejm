@@ -10,7 +10,7 @@ public class Macrophage : MonoBehaviour
     [SerializeField] private GameObject suckEffect;  
     [SerializeField] private Slider slider;  
 
-    private bool canEat;
+    private bool canEat = true;
     private bool eating;
     public float stamina = 100;
 
@@ -21,19 +21,19 @@ public class Macrophage : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(eating && stamina > 0) 
+        if(eating) 
             Eating();
             
-        CheckStamina();
+        //CheckStamina();
 
         suckEffect.SetActive(eating);
     }
 
     void GetInput()
     {
-        if(Input.GetKeyDown(KeyCode.E) && canEat)
+        if((Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0)) && canEat)
             eating = true;
-        if(Input.GetKeyUp(KeyCode.E))
+        if(Input.GetKeyUp(KeyCode.E) || Input.GetMouseButtonUp(0))
             eating = false;
 
         if(eating && !canEat)
@@ -52,31 +52,31 @@ public class Macrophage : MonoBehaviour
             if(Vector3.Distance(transform.position, hitCollider.transform.position) < 1.8f)
             {
                 hitCollider.gameObject.GetComponent<BacteriaDeath>().Die("Macrophage");
-                AddStamina(5f);
+                //AddStamina(5f);
                 StartCoroutine("Expand");
             }
         }
     }
 
-    void CheckStamina()
+    /*void CheckStamina()
     {
         if(stamina < 100 && !eating && !thirdPersonController.IsSprinting())
             AddStamina(Time.deltaTime * 12);
 
-        if(thirdPersonController.IsSprinting() && thirdPersonController.GetMoveDirection().normalized != Vector3.zero)
-            RemoveStamina(0.2f);
+        //if(thirdPersonController.IsSprinting() && thirdPersonController.GetMoveDirection().normalized != Vector3.zero)
+        //   RemoveStamina(0.2f);
 
         if(eating)
             RemoveStamina(0.3f);
 
         if(stamina <= 0)
         {
-            thirdPersonController.SetCanSprint(false);
+            //thirdPersonController.SetCanSprint(false);
             canEat = false;
         }
         else
         {
-            thirdPersonController.SetCanSprint(true);
+            //thirdPersonController.SetCanSprint(true);
             canEat = true;
         }
 
@@ -102,27 +102,27 @@ public class Macrophage : MonoBehaviour
     void UpdateUI()
     {
        slider.value = stamina; 
-    }
+    }*/
 
     IEnumerator Expand()
     {
         bool expanding = true;
         bool a = true;
         float size = 1;
-        float rate = 0.02f;
+        float rate = 2f;
 
         while(a & expanding)
         {
-            size += rate;
+            size += rate * Time.deltaTime;
             transform.localScale = new Vector3(size, transform.localScale.y, size);
-            if(size >= 1.3f)
+            if(size >= 1.5f)
                 a = false;
             yield return null; 
         }
 
         while(!a & expanding)
         {
-            size -= rate;
+            size -= rate * Time.deltaTime;
             transform.localScale = new Vector3(size, transform.localScale.y, size);
             if(size <= 1)
                 expanding = false;
