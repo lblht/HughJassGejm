@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8617649724917559816}
   - component: {fileID: 2938617752305762019}
   - component: {fileID: 2687747712581953536}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Platelet
   m_TagString: Platelet
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 8617649724917559816}
-  targetPosition: {x: 0, y: 0, z: 0}
+  targetPosition: {x: 9.7, y: -4, z: 0.5}
 --- !u!65 &2687747712581953536
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 7712534530394598518}
   - component: {fileID: 2172676574661829323}
   - component: {fileID: 8957016636788559311}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 8255393979373908108}
   - component: {fileID: 5820714114851631952}
   - component: {fileID: 1789674776322268860}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 3016951098702394556}
   - component: {fileID: 4457714447576195856}
   - component: {fileID: 6200007169575424834}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8599049701321378090}
   - component: {fileID: 8599049701321378089}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -371,7 +371,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &8599049701321378089
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -388,7 +388,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &6253221976109004785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -475,6 +475,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RedBloodCell2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8484958364792c040ae7a9beb7adf8b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8484958364792c040ae7a9beb7adf8b6, type: 3}

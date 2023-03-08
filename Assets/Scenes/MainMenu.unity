@@ -718,7 +718,7 @@ MonoBehaviour:
   volumeTrigger: {fileID: 272405808}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 1032
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
   antialiasingMode: 0
@@ -1814,7 +1814,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1982437224}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -1908,7 +1908,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &891600147
@@ -1953,7 +1953,7 @@ RectTransform:
   - {fileID: 1446807626}
   - {fileID: 2130484968}
   m_Father: {fileID: 1982437224}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1962,7 +1962,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &921880240
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1979,7 +1979,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &921880241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3295,7 +3295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce42de8e7d6cccf4f939c092cca898ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c879fbcbf72b1e44b8bfb340dcdad78b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3331,7 +3331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1357386080
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3348,7 +3348,7 @@ RectTransform:
   - {fileID: 1335324357}
   - {fileID: 2116580675}
   m_Father: {fileID: 1982437224}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4142,8 +4142,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 9fd9d52c685e656428e09638bbcf82ec, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4806,7 +4806,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce42de8e7d6cccf4f939c092cca898ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c879fbcbf72b1e44b8bfb340dcdad78b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4968,7 +4968,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56c14acb5cf078a4eabd738f181bd803,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 56c14acb5cf078a4eabd738f181bd803,
         type: 3}
@@ -4987,13 +4987,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1916598337}
   - component: {fileID: 1916598336}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: PostProcessing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1916598336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5213,11 +5213,11 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 891600145}
   - {fileID: 1357386080}
   - {fileID: 1589674034}
   - {fileID: 1993613179}
   - {fileID: 921880239}
+  - {fileID: 891600145}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5294,7 +5294,7 @@ RectTransform:
   - {fileID: 314129526}
   - {fileID: 1572611457}
   m_Father: {fileID: 1982437224}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5303,7 +5303,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1993613180
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5320,7 +5320,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &1993613181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5441,8 +5441,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.5013, y: 50.5013}
+  m_AnchoredPosition: {x: -1.2, y: 2.7}
+  m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2035797880
 MonoBehaviour:
@@ -5503,7 +5503,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2058158490
 Transform:
   m_ObjectHideFlags: 0
@@ -5680,7 +5680,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce42de8e7d6cccf4f939c092cca898ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c879fbcbf72b1e44b8bfb340dcdad78b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5967,7 +5967,7 @@ PrefabInstance:
     - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8770913960883336531, guid: f9dbade097893a448834a94d8ad6c321,
         type: 3}

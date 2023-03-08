@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+// 10, 0, -8
 public class PlateletAI : MonoBehaviour
 {
     [SerializeField] private NavMeshAgent navMeshAgent;     // referencia na NavMesh Agent
@@ -12,7 +13,6 @@ public class PlateletAI : MonoBehaviour
 
     void Start()
     {
-        targetPosition = new Vector3(10f, 0f, -8f);
         navMeshAgent.destination = targetPosition;
     }
 

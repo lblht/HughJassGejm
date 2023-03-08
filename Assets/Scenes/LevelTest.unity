@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589246, b: 0.2978263, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9756,7 +9756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 558774964}
   - component: {fileID: 558774963}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: Post Processing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9788,7 +9788,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558774962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -36.364376, y: 55.938076, z: -46.96919}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23556,7 +23556,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.78191614, b: 0.7058824, a: 1}
-  m_Intensity: 1.2
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -60178,7 +60178,7 @@ MonoBehaviour:
   volumeTrigger: {fileID: 2027439424}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 1024
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
   antialiasingMode: 1
