@@ -27,6 +27,11 @@ public class PoisonArea : MonoBehaviour
             {  
                 c.gameObject.GetComponent<BacteriaDeath>().takeDamage(damage,"Neutrophile");
             }
+
+            if(c.gameObject.tag=="Food")
+            {  
+                c.gameObject.GetComponent<Food>().ReduceAmount(10);
+            }
         }
         Invoke("poisonDamage",damageTime);
     }

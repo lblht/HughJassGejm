@@ -360,6 +360,7 @@ MonoBehaviour:
   thirdPersonController: {fileID: 0}
   firstPersonController: {fileID: 643182444888523530}
   animator: {fileID: 0}
+  allowRotation: 1
 --- !u!1 &643182445344876719
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,7 +2035,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6079e65b57daaab478ccea347fac1a19, type: 2}
+  - {fileID: 2100000, guid: dd0c3985d7a800b46bcbe97bcab791b6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

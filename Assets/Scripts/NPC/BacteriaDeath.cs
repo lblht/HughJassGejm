@@ -16,7 +16,6 @@ public class BacteriaDeath : MonoBehaviour
         currentHp = maxHp;
     }
 
-
     public void Die(string responsible)
     {
         Drop();

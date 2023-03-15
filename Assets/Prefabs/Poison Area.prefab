@@ -4833,7 +4833,7 @@ GameObject:
   - component: {fileID: 7609717910208509143}
   - component: {fileID: 7609717910208509136}
   - component: {fileID: 7609717910208509142}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Poison Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}

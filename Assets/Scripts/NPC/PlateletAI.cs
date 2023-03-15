@@ -7,18 +7,18 @@ using UnityEngine.AI;
 public class PlateletAI : MonoBehaviour
 {
     [SerializeField] private NavMeshAgent navMeshAgent;     // referencia na NavMesh Agent
-    [SerializeField] private Vector3 targetPosition;     
+    [SerializeField] private Transform targetTransform;     
 
     private bool up;
 
     void Start()
     {
-        navMeshAgent.destination = targetPosition;
+        navMeshAgent.destination = targetTransform.position;
     }
 
     void FixedUpdate()
     {
-        if(Vector3.Distance(transform.position, targetPosition) < 2f)
+        if(Vector3.Distance(transform.position, targetTransform.position) < 2f)
         {
             up = true;
             navMeshAgent.enabled = false;
@@ -28,5 +28,10 @@ public class PlateletAI : MonoBehaviour
         {
             transform.position += Vector3.up * 0.2f;
         }
+    }
+
+    public void SetTargetTransform(Transform target)
+    {
+        targetTransform = target;
     }
 }

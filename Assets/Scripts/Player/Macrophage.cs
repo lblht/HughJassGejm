@@ -23,8 +23,6 @@ public class Macrophage : MonoBehaviour
     {
         if(eating) 
             Eating();
-            
-        //CheckStamina();
 
         suckEffect.SetActive(eating);
     }
@@ -52,57 +50,10 @@ public class Macrophage : MonoBehaviour
             if(Vector3.Distance(transform.position, hitCollider.transform.position) < 1.8f)
             {
                 hitCollider.gameObject.GetComponent<BacteriaDeath>().Die("Macrophage");
-                //AddStamina(5f);
                 StartCoroutine("Expand");
             }
         }
     }
-
-    /*void CheckStamina()
-    {
-        if(stamina < 100 && !eating && !thirdPersonController.IsSprinting())
-            AddStamina(Time.deltaTime * 12);
-
-        //if(thirdPersonController.IsSprinting() && thirdPersonController.GetMoveDirection().normalized != Vector3.zero)
-        //   RemoveStamina(0.2f);
-
-        if(eating)
-            RemoveStamina(0.3f);
-
-        if(stamina <= 0)
-        {
-            //thirdPersonController.SetCanSprint(false);
-            canEat = false;
-        }
-        else
-        {
-            //thirdPersonController.SetCanSprint(true);
-            canEat = true;
-        }
-
-        UpdateUI();
-    }
-
-    void AddStamina(float amount)
-    {
-        stamina += amount;
-        
-        if(stamina > 100)
-            stamina = 100;
-    }
-
-    void RemoveStamina(float amount)
-    {
-        stamina -= amount;
-        
-        if(stamina < 0)
-            stamina = 0;
-    }
-
-    void UpdateUI()
-    {
-       slider.value = stamina; 
-    }*/
 
     IEnumerator Expand()
     {

@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class Neutrophile : MonoBehaviour
 {
-    public Transform poisonSpawnPoint;
-    public GameObject poisonArea;
-
-    public GameObject poisonEmitArea;
-    public ParticleSystem poisonEmitEffect;
-
-    public float cooldownTime=10;
-    public int maxPoisonAmmo = 3;
+    [SerializeField] Transform poisonSpawnPoint;
+    [SerializeField] GameObject poisonArea;
+    [SerializeField] GameObject poisonEmitArea;
+    [SerializeField] ParticleSystem poisonEmitEffect;
+    [SerializeField] float cooldownTime = 10;
+    [SerializeField] int maxPoisonAmmo = 3;
     
     private bool poisonCharged = true;
 
@@ -50,6 +48,6 @@ public class Neutrophile : MonoBehaviour
 
     void ReleasePoison()
     {
-        var poison = Instantiate(poisonArea, poisonSpawnPoint.position, poisonSpawnPoint.rotation);
+        GameObject poison = Instantiate(poisonArea, poisonSpawnPoint.position, poisonSpawnPoint.rotation);
     }
 }

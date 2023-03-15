@@ -9,6 +9,7 @@ TagManager:
   - BloodCurrent
   - Bacteria
   - Platelet
+  - Food
   layers:
   - Default
   - TransparentFX

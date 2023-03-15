@@ -7,6 +7,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private float delay;
     [SerializeField] private GameObject prefab;
     [SerializeField] private GameObject wound;
+    [SerializeField] private Transform targetTransform;
 
     private float timer;
 
@@ -14,7 +15,8 @@ public class Spawner : MonoBehaviour
     {
         if(Time.time > timer && wound != null)
         {
-            Instantiate(prefab, transform.position, Quaternion.identity);
+            GameObject newPlatelet = Instantiate(prefab, transform.position, Quaternion.identity);
+            newPlatelet.GetComponent<PlateletAI>().SetTargetTransform(targetTransform);
             timer = Time.time + delay;
         }
 

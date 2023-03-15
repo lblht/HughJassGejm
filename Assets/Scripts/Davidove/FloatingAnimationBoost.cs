@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FloatingAnimation : MonoBehaviour
+public class FloatingAnimationBoost : MonoBehaviour
 {
 
-    
+    public float speed = 50;
     public float amplitude = 0.3f;
     public float frequency = 0.5f;
     Vector3 posOrigin = new Vector3();
@@ -22,7 +22,7 @@ public class FloatingAnimation : MonoBehaviour
         tempPos = posOrigin;
         tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frequency) * amplitude;
         transform.position = tempPos;
-        
+        transform.Rotate(Vector3.up * speed * Time.deltaTime);
         
     }
 }

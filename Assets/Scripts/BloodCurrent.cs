@@ -7,6 +7,7 @@ public class BloodCurrent : MonoBehaviour
     [SerializeField] ThirdPersonController thirdPersonController;
     [SerializeField] PlayerMovement firstPersonController;
     [SerializeField] Animator animator;
+    [SerializeField] bool allowRotation;
     private bool inTunnel;
     private Collider bloodCurrent;
 
@@ -24,8 +25,12 @@ public class BloodCurrent : MonoBehaviour
                 firstPersonController.enabled = false;
 
             transform.position += bloodCurrent.transform.forward * Time.deltaTime * 20;
-            Vector3 newDirection = Vector3.RotateTowards(transform.forward, bloodCurrent.transform.forward, 0.1f, 0.0f);
-            transform.rotation = Quaternion.LookRotation(newDirection);
+
+            if(!allowRotation)
+            {
+                Vector3 newDirection = Vector3.RotateTowards(transform.forward, bloodCurrent.transform.forward, 0.1f, 0.0f);
+                transform.rotation = Quaternion.LookRotation(newDirection);
+            }
         }
         else
         {

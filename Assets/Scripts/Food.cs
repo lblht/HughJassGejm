@@ -16,19 +16,23 @@ public class Food : MonoBehaviour
 
     public bool ReduceAmount(int value)
     {
-        if((amount - value) >= 0)
+        if(amount > 0)
         {
             amount -= value;
+
+            if(amount <= 0)
+            {
+                gameObject.layer = LayerMask.NameToLayer("Default");   
+                renderer.material.color = Color.black;
+                GameManager.instance?.RemoveRecource();
+            }
+
             return true;
         }
         else
         {
-            gameObject.layer = LayerMask.NameToLayer("Default");   
-            renderer.material.color = Color.black;
-            GameManager.instance?.RemoveRecource();
             return false;
         }
-
     }
 
     public void SetOccupied(bool value)

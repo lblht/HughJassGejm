@@ -233,12 +233,6 @@ public class BacteriaAI : MonoBehaviour
         currentFood?.SetOccupied(false);
         mesh.localScale = new Vector3(1f,1f,1f);
         animator.Play("Bacteria_Idle");
-        //currentFood = null;
-        //resourceAmount = 0;
-        //state = States.LookingForFood;     
-        //targetPosition = RandomTargetPosition();
-        //gameObject.SetActive(false);
-        // TODO: Pooling?
     }
 
     void AlignMeshWithGround()
