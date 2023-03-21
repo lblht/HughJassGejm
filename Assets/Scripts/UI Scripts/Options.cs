@@ -8,6 +8,8 @@ using UnityEngine.Audio;
 public class Options : MonoBehaviour
 {
     public AudioMixer audioMixer;
+
+    private bool tutorial = true;
     
     public void ChangeLanguage(int langID)
     {
@@ -16,6 +18,16 @@ public class Options : MonoBehaviour
 
     public void SetVolume(float volume)
     {
-        audioMixer.SetFloat("MainVolume", volume);
+        audioMixer.SetFloat("MainVolume", volume/2);
+    }
+    
+    public void SetTutorial(bool value)
+    {
+        tutorial = value;
+    }
+
+    public bool GetTutorial()
+    {
+        return tutorial;
     }
 }

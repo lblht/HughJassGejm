@@ -559,6 +559,7 @@ GameObject:
   - component: {fileID: 208980431825480380}
   - component: {fileID: 6439611524868329074}
   - component: {fileID: 6175130741605321408}
+  - component: {fileID: 6080242384369732758}
   m_Layer: 5
   m_Name: LevelSelectionPoint
   m_TagString: Untagged
@@ -617,6 +618,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &208980431825480380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,6 +716,18 @@ MonoBehaviour:
             m_StringArgument: HideBubble
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 6080242384369732758}
+          m_TargetAssemblyTypeName: AudioPlayer, Assembly-CSharp
+          m_MethodName: PlaySound
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: hover
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 1
     callback:
       m_PersistentCalls:
@@ -757,3 +771,21 @@ MonoBehaviour:
   levelSelectionScreen: {fileID: 0}
   intro: {fileID: 0}
   animator: {fileID: 8300803120784731258}
+--- !u!114 &6080242384369732758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6510669158977377996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd0912e4996c2948948103209fb67c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixerGroup: {fileID: 24300002, guid: 81e9cb429846a514db23fdd910c1e500, type: 2}
+  soundClips:
+  - clipName: hover
+    volume: 0.5
+    clip: {fileID: 8300000, guid: fd8638157d0f0294496e0a6fd8a2c748, type: 3}
+    audioSource: {fileID: 0}

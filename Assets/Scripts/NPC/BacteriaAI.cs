@@ -170,9 +170,9 @@ public class BacteriaAI : MonoBehaviour
     {
         Vector3 position1 = transform.position + (transform.right * 0.35f);    // vypočet pozície pre spawn nových baktérií
         Vector3 position2 = transform.position + (transform.right * -0.35f);
-        Reset();
         Instantiate(bacteriaPrefab, position1, transform.rotation);        // inštancovanie nových baktérii
         Instantiate(bacteriaPrefab, position2, transform.rotation);
+        Reset();
         Destroy(gameObject);
 
     }

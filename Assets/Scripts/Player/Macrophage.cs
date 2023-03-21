@@ -16,7 +16,8 @@ public class Macrophage : MonoBehaviour
 
     void Update()
     {
-        GetInput();
+        if(thirdPersonController.GetAllowControl())
+            GetInput();
     }
 
     void FixedUpdate()

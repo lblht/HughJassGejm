@@ -16,6 +16,7 @@ public class AudioPlayer : MonoBehaviour
             soundClip.audioSource.clip = soundClip.clip;
             soundClip.audioSource.volume = soundClip.volume;
             soundClip.audioSource.outputAudioMixerGroup = audioMixerGroup;
+            soundClip.audioSource.playOnAwake = false;
         }
     }
 
@@ -28,7 +29,9 @@ public class AudioPlayer : MonoBehaviour
             if(soundClip.clipName == clipName)
             {
                 if(soundClip.audioSource != null)
+                {
                     soundClip.audioSource.Play();
+                }
                 soundFound = true;
             }
         }

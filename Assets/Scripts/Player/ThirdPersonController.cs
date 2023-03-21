@@ -32,8 +32,9 @@ public class ThirdPersonController : MonoBehaviour
     private float groundCheckOffset = 0.8f;                    // vrstva coliderov na ktorých môže chodiť
     private float groundCheckSize = 0.4f;                     // vrstva coliderov na ktorých môže chodiť
     private float speed;
-    private bool sprinting = false;
+    private bool sprinting = true;
     private bool canSprint = true; 
+    private bool allowControl = true; 
 
     void Awake()
     {
@@ -45,7 +46,7 @@ public class ThirdPersonController : MonoBehaviour
         thirdPersonCamera.GetComponent<CinemachineFreeLook>().LookAt = transform;
         animator.SetFloat("walkSpeedMultiplayer", moveSpeed/2);
         animator.SetFloat("runSpeedMultiplayer", sprintSpeed/5);
-        ChangeSprintUI();
+        //ChangeSprintUI();
     }
 
     void OnDestroy()
@@ -55,8 +56,8 @@ public class ThirdPersonController : MonoBehaviour
 
     void Update()
     {
-  
-        GetInput();
+        if(allowControl)
+            GetInput();
 
         CalculateMovement();
 
@@ -98,7 +99,7 @@ public class ThirdPersonController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.LeftShift) && canSprint)
         {
             sprinting = !sprinting;
-            ChangeSprintUI();
+            //ChangeSprintUI();
         }
 
         if(sprinting && !canSprint)
@@ -206,6 +207,17 @@ public class ThirdPersonController : MonoBehaviour
             runUI.SetActive(false);
             walkUI.SetActive(true);
         }
+    }
+
+    public void SetAllowControl(bool value)
+    {
+        allowControl = value;
+        inputDirection = Vector3.zero;
+    }
+
+    public bool GetAllowControl()
+    {
+        return allowControl;
     }
 
     //debug

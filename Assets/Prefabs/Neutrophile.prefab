@@ -6780,6 +6780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7614448142379979522}
   - component: {fileID: 4252383068962747470}
+  - component: {fileID: 232477815994149592}
   m_Layer: 0
   m_Name: KrvinkaRig3
   m_TagString: Untagged
@@ -6824,6 +6825,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &232477815994149592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7124734822492228024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd0912e4996c2948948103209fb67c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixerGroup: {fileID: 24300002, guid: 81e9cb429846a514db23fdd910c1e500, type: 2}
+  soundClips:
+  - clipName: step
+    volume: 0.05
+    clip: {fileID: 8300000, guid: 4edd36a36ae430d4da7c4b5f392bc451, type: 3}
+    audioSource: {fileID: 0}
 --- !u!1 &7696802364784767508
 GameObject:
   m_ObjectHideFlags: 0
@@ -6878,7 +6898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 15
-  damageTime: 1
+  damageTime: 0.5
   damage: 3
   radius: 2
   autoDestroy: 0
@@ -7353,6 +7373,7 @@ MonoBehaviour:
   thirdPersonController: {fileID: 3156969310876467982}
   firstPersonController: {fileID: 0}
   animator: {fileID: 4252383068962747470}
+  allowRotation: 0
 --- !u!114 &3156969310876467982 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7406302697618358793, guid: 0410e375a6a24544cae732fe5312b49f,

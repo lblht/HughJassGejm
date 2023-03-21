@@ -12,41 +12,22 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Slider slider;  
     [SerializeField] private GameObject pauseMenu; 
     [SerializeField] private GameObject gameOverScreen; 
+    [SerializeField] private GameObject youWinScreen; 
     [SerializeField] private ObjectiveManager objectiveManager; 
 
     private int numberOfBacteria;
     private int resourceAmount;
     private bool paused;
+    private bool woundClosed;
+    public bool infoHints = false;
 
     public int bacteriaKilledCount = 0;
-
-    public bool prak=true;
-    public bool luk=false;
-    public bool bazuka=false;
+    private string pauserId;
 
     void Start()
     {
         Application.targetFrameRate = 80;
     }
-
-    public void setBazuka (bool value)
-    {
-        bazuka = value;
-    }
-    public bool getBazuka()
-    {
-        return bazuka;
-    }
-
-    public void setLuk (bool value)
-    {
-        luk = value;
-    }
-    public bool getLuk()
-    {
-        return luk;
-    }
-
 
     void Awake()
     {
@@ -58,6 +39,23 @@ public class GameManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape) && !paused)
         {
             pauseMenu.SetActive(true);
+        }
+
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            if(!infoHints)
+            {
+                infoHints = true;
+                GameManager.instance.HideCursor(false);
+                GameManager.instance.PauseGame("Info");
+            }
+            else if(infoHints)
+            {
+                infoHints = false;
+                GameManager.instance.HideCursor(true);
+                GameManager.instance.UnPauseGame("Info");
+            }
+            
         }
     }
 
@@ -87,6 +85,14 @@ public class GameManager : MonoBehaviour
             break;
         default:
             break;
+        }
+
+        if(numberOfBacteria <= 0 && resourceAmount > 0 && woundClosed)
+        {
+            youWinScreen.SetActive(true);
+
+            //potom prerobit
+            Destroy(youWinScreen, 10f);
         }
     }
 
@@ -135,20 +141,34 @@ public class GameManager : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;  
     }
 
-    public void PauseGame()
+    public void PauseGame(string id)
     {
-        Time.timeScale = 0;
-        paused = true;
+        if(!GetPause())
+        {
+            Time.timeScale = 0;
+            paused = true;
+            pauserId = id;
+        }
     }
 
-    public void UnPauseGame()
+    public void UnPauseGame(string id)
     {
-        Time.timeScale = 1;
-        paused = false;
+        if(id == pauserId)
+        {
+            Time.timeScale = 1;
+            paused = false;
+        }
+        else
+            Debug.Log("Wrong Pauser ID");
     }
 
     public bool GetPause()
     {
         return paused;
+    }
+
+    public void WoundClosed()
+    {
+        woundClosed = true;
     }
 }

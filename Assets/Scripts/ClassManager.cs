@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ClassManager : MonoBehaviour
 {
     [SerializeField] private Animator classSelectionAnimator;
-    [SerializeField] private GameObject selectionCamera;
+    //[SerializeField] private GameObject selectionCamera;
     [SerializeField] private GameObject class1Prefab;
     [SerializeField] private GameObject class2Prefab;
     [SerializeField] private GameObject class3Prefab;
@@ -18,9 +18,10 @@ public class ClassManager : MonoBehaviour
     [SerializeField] private ClassCard classCard4;
     [SerializeField] private GameObject newClassScreen;
     [SerializeField] private Image newClassImage;
+    [SerializeField] private Transform spawnPoint;
 
     private bool selectingClass;
-    private bool selectingLocation;
+    //private bool selectingLocation;
     private GameObject selectedClass;
     private ClassCard currentClassCard;
 
@@ -36,13 +37,13 @@ public class ClassManager : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Tab) && !selectingClass && !selectingLocation && !GameManager.instance.GetPause())
+        if(Input.GetKeyDown(KeyCode.Tab) && !selectingClass /*&& !selectingLocation*/)
             OpenClassSelectionScreen();
-        else if(Input.GetKeyDown(KeyCode.Tab) && selectingClass && !GameManager.instance.GetPause())
+        else if(Input.GetKeyDown(KeyCode.Tab) && selectingClass)
             CloseClassSelectionScreen();
 
-        if(selectingLocation && Input.GetMouseButtonDown(0))
-            SelectSpawnLocation();
+        /*if(selectingLocation && Input.GetMouseButtonDown(0))
+            SelectSpawnLocation();*/
 
         if(Input.GetKeyDown(KeyCode.P))
         {
@@ -58,7 +59,7 @@ public class ClassManager : MonoBehaviour
         selectingClass = true;
         classSelectionAnimator.SetBool("Open", true);
         GameManager.instance.HideCursor(false);
-        Time.timeScale = 0;
+        GameManager.instance.PauseGame("ClassSelection");
     }
 
     void CloseClassSelectionScreen()
@@ -66,10 +67,10 @@ public class ClassManager : MonoBehaviour
         selectingClass = false;
         classSelectionAnimator.SetBool("Open", false);
         GameManager.instance.HideCursor(true);
-        Time.timeScale = 1;
+        GameManager.instance.UnPauseGame("ClassSelection");
     }
 
-    void SelectSpawnLocation()
+    /*void SelectSpawnLocation()
     {
         RaycastHit hit;
         Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit);
@@ -77,14 +78,14 @@ public class ClassManager : MonoBehaviour
         Instantiate(selectedClass, hit.point + Vector3.up * 1f, Quaternion.identity);
         selectingLocation = false;
         selectionCamera.SetActive(false);
-    }
+    }*/
 
     public void SelectClass(int classID)
     {
-        selectingLocation = true;
-        Time.timeScale = 1;
+        //selectingLocation = true;
+        GameManager.instance.UnPauseGame("ClassSelection");
         selectingClass = false;
-        selectionCamera.SetActive(true);
+        //selectionCamera.SetActive(true);
         classSelectionAnimator.SetBool("Open", false);
         Destroy(GameObject.FindGameObjectWithTag("Player"));
         currentClassCard.StartCooldown();
@@ -111,6 +112,8 @@ public class ClassManager : MonoBehaviour
             Debug.Log("Wrong Class ID!");
             break;
         }
+
+        Instantiate(selectedClass, spawnPoint.position, Quaternion.identity);
     }
 
     public void UnlockClass(int classID)
@@ -140,7 +143,14 @@ public class ClassManager : MonoBehaviour
         classCard.Locked(false);
         newClassImage.sprite = classCard.GetCardSprite();
         newClassScreen.SetActive(true);
-        GameManager.instance.HideCursor(false);
-        GameManager.instance.PauseGame();
+        Invoke("DisableNewClassScreen", 2f);
+        //GameManager.instance.HideCursor(false);
+        //GameManager.instance.PauseGame("UnlockCard");
+    }
+
+    void DisableNewClassScreen()
+    {
+        //GameManager.instance.UnPauseGame("UnlockCard");
+        newClassScreen.SetActive(false);
     }
 }

@@ -24,6 +24,7 @@ public class PowerUpApplier : MonoBehaviour
     {
         speedTimerUI.fillAmount = 0;
         originalSpeed = thirdPersonController.sprintSpeed;
+        dashUI.SetActive(false);
     }
 
     void FixedUpdate()

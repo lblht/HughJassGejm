@@ -20,4 +20,9 @@ public class MenuManager : MonoBehaviour
             disabled.SetActive(false);
         }
     }
+
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
 }
