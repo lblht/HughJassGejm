@@ -30,6 +30,13 @@ MonoBehaviour:
     m_Localized: Parasite
     m_Metadata:
       m_Items: []
+  - m_Id: 44513912174235648
+    m_Localized: Dangerous bacteria entered the body. This is what we call an infection.
+      The bacteria triggered the immune system which is responsible for protecting
+      the body againts the bacteria. You play as the immune system, your task is
+      to eliminate the bacteria as soon as possible.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

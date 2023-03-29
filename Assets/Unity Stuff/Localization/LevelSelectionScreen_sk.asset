@@ -30,6 +30,14 @@ MonoBehaviour:
     m_Localized: Parazit
     m_Metadata:
       m_Items: []
+  - m_Id: 44513912174235648
+    m_Localized: "Nebezpe\u010Dn\xE9 bakt\xE9rie vnikli do tela. Toto je stav ktor\xFD
+      naz\xFDvame infekcia. Tieto bakt\xE9rie vzbudili imunit\xFD syst\xE9m ktor\xFD
+      je zodpovedn\xFD za ochranu tela pred t\xFDmito bakt\xE9riami. Ty hr\xE1\u0161
+      za imunitn\xFD syst\xE9m, tvojou \xFAlohou je \u010Do najsk\xF4r zne\u0161kodni\u0165
+      v\u0161etky bakt\xE9rie."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

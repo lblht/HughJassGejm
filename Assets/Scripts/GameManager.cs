@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
             break;
         }
 
-        if(numberOfBacteria <= 0 && resourceAmount > 0 && woundClosed)
+        if(numberOfBacteria <= 0 && resourceAmount > 0 && woundClosed && responsible != "Mitosis")
         {
             youWinScreen.SetActive(true);
 

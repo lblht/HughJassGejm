@@ -6866,6 +6866,8 @@ MonoBehaviour:
   gameOverScreen: {fileID: 2087233930495142849}
   youWinScreen: {fileID: 3284965416813912475}
   objectiveManager: {fileID: 7409163411665998364}
+  audioPlayer: {fileID: 0}
+  startMusic: level
   infoHints: 0
   bacteriaKilledCount: 0
 --- !u!114 &5558739259790289810

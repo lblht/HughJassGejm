@@ -5777,6 +5777,9 @@ MonoBehaviour:
   dialogueNodes:
   - sentences:
     - "neviem po slovensky e\u0161te"
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &270472774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5796,6 +5799,9 @@ MonoBehaviour:
     - Looks like a bacteria got here somehow...
     - and it's feeding on the body's resources!
     - Quickly! Eat it before it reproduces. You can use [E] or [LMB] for that.
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &270472775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7827,6 +7833,9 @@ MonoBehaviour:
   dialogueNodes:
   - sentences:
     - "neviem po slovensky e\u0161te"
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &572374836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7844,6 +7853,9 @@ MonoBehaviour:
   - sentences:
     - 'This one is fun. Try jumping and pressing [space] again while you are in the
       air after you pick it up. '
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &572374837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14860,6 +14872,9 @@ MonoBehaviour:
     - but today we are here to show you around.
     - You can move using [WASD].
     - Try running to my friend over there.
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &998763136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14892,6 +14907,9 @@ MonoBehaviour:
       funguje."
     - "M\xF4\u017Ee\u0161 sa pohybova\u0165 pomocou [WASD]."
     - "Sk\xFAs dobehn\xFA\u0165 k \u010Fal\u0161ej \u010Dervenej krvinke."
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1014966194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15957,6 +15975,33 @@ MonoBehaviour:
   dialogueNodes:
   - sentences:
     - "neviem po slovensky e\u0161te"
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 279895584}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1104388324}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1079629411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15975,6 +16020,33 @@ MonoBehaviour:
     - This is not good. There must be an infection near by.
     - You must go help fight the bacteria.
     - Run! Quickly!
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 279895584}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1104388324}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!65 &1079629412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18095,6 +18167,9 @@ MonoBehaviour:
   dialogueNodes:
   - sentences:
     - "neviem po slovensky e\u0161te"
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1209635199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18116,6 +18191,9 @@ MonoBehaviour:
     - You are a white blood cell, if something like that ever happens your job is
       to protect the body
     - If you see something you don't know, you can use [Q] to learn about it.
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1209635200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18391,6 +18469,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4af976a7fcded604f82174e1cead0ff4, type: 3}
+--- !u!1 &1276421126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1276421127}
+  m_Layer: 0
+  m_Name: Music Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1276421127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276421126}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 58
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1326277457
 GameObject:
   m_ObjectHideFlags: 0
@@ -20724,6 +20833,9 @@ MonoBehaviour:
   dialogueNodes:
   - sentences:
     - "neviem po slovensky e\u0161te"
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1657251197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20742,6 +20854,9 @@ MonoBehaviour:
     - This is the flow of the blood.
     - You can use it to travel around the body.
     - Just press and hold [space] while you are inside of it.
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1657251198
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26559,6 +26674,9 @@ MonoBehaviour:
   dialogueNodes:
   - sentences:
     - "neviem po slovensky e\u0161te"
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1798289731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26576,6 +26694,9 @@ MonoBehaviour:
   - sentences:
     - You can also use [space] to jump.
     - Try jumping over this wall.
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1798289732
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27741,6 +27862,9 @@ MonoBehaviour:
   dialogueNodes:
   - sentences:
     - "neviem po slovensky e\u0161te"
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1942052511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27758,6 +27882,9 @@ MonoBehaviour:
   - sentences:
     - We also have some boosts that will help you move faster around the body.
     - Try this one for example
+  dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1942052512
 BoxCollider:
   m_ObjectHideFlags: 0

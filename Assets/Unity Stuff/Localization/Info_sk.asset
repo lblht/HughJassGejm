@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Info_sk
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: sk
+  m_SharedData: {fileID: 11400000, guid: 8e73d5732e22ce54b834357da164e4b5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 20928876544
+    m_Localized: "Krvn\xE9 do\u0161ti\u010Dky alebo trombocyty s\xFA druh krvn\xFDch
+      teliesok. S\xFA to najmen\u0161ie telieska v krvi. \n\nVznikaj\xFA v kostnej
+      dreni fragment\xE1ciou cytoplazmy megakaryocytov. \n\n\u017Dij\xFA iba nieko\u013Eko
+      (9-12) dn\xED. U \u010Dloveka je ich 150-450 \xD7 109 v litri.\n\nHlavnou funkciou
+      trombocytov je zr\xE1\u017Eanie krvi za \xFA\u010Delom zastavenia krv\xE1cania.\r "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1183648665600
+    m_Localized: "Krvn\xE1 do\u0161ti\u010Dka"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5422110298112
+    m_Localized: "Bakt\xE9ria"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5306376867840
+    m_Localized: "bla bla nejak\xE9 veci o bakt\xE9riach..."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

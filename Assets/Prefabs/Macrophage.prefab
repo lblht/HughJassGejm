@@ -6223,6 +6223,7 @@ MonoBehaviour:
   soundClips:
   - clipName: step
     volume: 0.05
+    loop: 0
     clip: {fileID: 8300000, guid: 4edd36a36ae430d4da7c4b5f392bc451, type: 3}
     audioSource: {fileID: 0}
 --- !u!1 &4100681914918678841
@@ -8004,6 +8005,46 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5057864520400023646, guid: 0410e375a6a24544cae732fe5312b49f,
+        type: 3}
+      propertyPath: soundClips.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057864520400023646, guid: 0410e375a6a24544cae732fe5312b49f,
+        type: 3}
+      propertyPath: soundClips.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 905570cafcd442d4485e67a43e3a4c3c, type: 3}
+    - target: {fileID: 5057864520400023646, guid: 0410e375a6a24544cae732fe5312b49f,
+        type: 3}
+      propertyPath: soundClips.Array.data[3].loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057864520400023646, guid: 0410e375a6a24544cae732fe5312b49f,
+        type: 3}
+      propertyPath: soundClips.Array.data[4].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: f8e3966bd05e54f46a3da1089780e61f, type: 3}
+    - target: {fileID: 5057864520400023646, guid: 0410e375a6a24544cae732fe5312b49f,
+        type: 3}
+      propertyPath: soundClips.Array.data[3].volume
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057864520400023646, guid: 0410e375a6a24544cae732fe5312b49f,
+        type: 3}
+      propertyPath: soundClips.Array.data[4].volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057864520400023646, guid: 0410e375a6a24544cae732fe5312b49f,
+        type: 3}
+      propertyPath: soundClips.Array.data[3].clipName
+      value: suck
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057864520400023646, guid: 0410e375a6a24544cae732fe5312b49f,
+        type: 3}
+      propertyPath: soundClips.Array.data[4].clipName
+      value: eat
+      objectReference: {fileID: 0}
     - target: {fileID: 6788096970955069348, guid: 0410e375a6a24544cae732fe5312b49f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8151,6 +8192,7 @@ MonoBehaviour:
     m_Bits: 128
   suckEffect: {fileID: 1952016238}
   slider: {fileID: 7674682867074653497}
+  audioPlayer: {fileID: 7410229074201598696}
   stamina: 100
 --- !u!114 &3694792229326891015
 MonoBehaviour:
@@ -8178,5 +8220,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6878ed14e73667f46a64b2a78d11a84b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7410229074201598696 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5057864520400023646, guid: 0410e375a6a24544cae732fe5312b49f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2370943921048021686}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5057315878299707578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd0912e4996c2948948103209fb67c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

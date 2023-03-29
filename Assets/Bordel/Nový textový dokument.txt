@@ -13,10 +13,7 @@ Lubo:
 
 opraviť objective manager a class manager
 dorobiť first person postavu
-červené krvinky, nosia kyslík
-dobré baktérie - e-coli
 pridať tam edukačné texty
-energia = cukor
 dorobiť lokalizáciu
 cieva
 tutrial

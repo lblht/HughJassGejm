@@ -11,6 +11,8 @@ public class PowerUpApplier : MonoBehaviour
     [SerializeField] private ParticleSystem dashEffect;
     [SerializeField] private GameObject dashUI;
 
+    [SerializeField] private AudioPlayer audioPlayer;
+
     private float speedAdder = 4f;
     private float speedCooldown = 5f;
     private float originalSpeed;
@@ -52,11 +54,13 @@ public class PowerUpApplier : MonoBehaviour
             dash = false;
             dashUI.SetActive(false);
             dashTimer = Time.time + 0.15f;
+            audioPlayer.PlaySound("dash");
         }
     }
 
     public void SpeedBoost()
     {
+        audioPlayer.PlaySound("powerUp");
         thirdPersonController.sprintSpeed += speedAdder;
         speedBoost = true;
         speedTimer = Time.time + speedCooldown;
@@ -71,6 +75,7 @@ public class PowerUpApplier : MonoBehaviour
 
     public void Dash()
     {
+        audioPlayer.PlaySound("powerUp");
         dash = true;
         dashUI.SetActive(true);
     }

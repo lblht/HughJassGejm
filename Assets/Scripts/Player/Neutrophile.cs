@@ -10,6 +10,7 @@ public class Neutrophile : MonoBehaviour
     [SerializeField] ParticleSystem poisonEmitEffect;
     [SerializeField] float cooldownTime = 10;
     [SerializeField] int maxPoisonAmmo = 3;
+    [SerializeField] AudioPlayer audioPlayer;
     
     private bool poisonCharged = true;
 
@@ -20,12 +21,16 @@ public class Neutrophile : MonoBehaviour
         {  
            poisonEmitArea.SetActive(true);
            poisonEmitEffect.Play();
+           
+           if(GameManager.instance && !GameManager.instance.GetPause())
+                audioPlayer.PlaySound("gas");
         }
 
         if(Input.GetMouseButtonUp(0))
         {  
            poisonEmitArea.SetActive(false);
            poisonEmitEffect.Stop();
+           audioPlayer.StopSound("gas");
         }
 
         if((Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.E)) && poisonCharged)

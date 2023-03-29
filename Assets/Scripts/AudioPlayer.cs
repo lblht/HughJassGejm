@@ -17,6 +17,7 @@ public class AudioPlayer : MonoBehaviour
             soundClip.audioSource.volume = soundClip.volume;
             soundClip.audioSource.outputAudioMixerGroup = audioMixerGroup;
             soundClip.audioSource.playOnAwake = false;
+            soundClip.audioSource.loop = soundClip.loop;
         }
     }
 

@@ -712,11 +712,7 @@ PrefabInstance:
     - target: {fileID: 6510669157540042224, guid: 4f6bc003d50913c4daab045ed252b056,
         type: 3}
       propertyPath: m_text
-      value: "Nebezpe\u010Dn\xE9 bakt\xE9rie vnikli do tela. Toto je stav ktor\xFD
-        naz\xFDvame infekcia. Tieto bakt\xE9rie vzbudili imunit\xFD syst\xE9m ktor\xFD
-        je zodpovedn\xFD za ochranu tela pred t\xFDmito bakt\xE9riami. Ty hr\xE1\u0161
-        za imunitn\xFD syst\xE9m, tvojou \xFAlohou je \u010Do najsk\xF4r zne\u0161kodni\u0165
-        v\u0161etky bakt\xE9rie."
+      value: wiejghieuwg
       objectReference: {fileID: 0}
     - target: {fileID: 6510669157540042224, guid: 4f6bc003d50913c4daab045ed252b056,
         type: 3}
@@ -844,6 +840,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122283574572565364, guid: 4f6bc003d50913c4daab045ed252b056,
+        type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 44513912174235648
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122283574572565364, guid: 4f6bc003d50913c4daab045ed252b056,
+        type: 3}
+      propertyPath: m_StringReference.m_TableReference.m_TableCollectionName
+      value: GUID:8c8f52eca208e4243b763cda503e79be
       objectReference: {fileID: 0}
     - target: {fileID: 9007806523282929084, guid: 4f6bc003d50913c4daab045ed252b056,
         type: 3}

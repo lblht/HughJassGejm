@@ -33,6 +33,10 @@ MonoBehaviour:
     m_Address: Assets/Unity Stuff/Localization/GeneralUI Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 8e73d5732e22ce54b834357da164e4b5
+    m_Address: Assets/Unity Stuff/Localization/Info Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 50a52073a8a951442bbe80708be15dbe, type: 2}
   m_SchemaSet:

@@ -10,36 +10,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: LevelSelectionScreen Shared Data
+  m_Name: Info Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: LevelSelectionScreen
-  m_TableCollectionNameGuidString: 8c8f52eca208e4243b763cda503e79be
+  m_TableCollectionName: Info
+  m_TableCollectionNameGuidString: 8e73d5732e22ce54b834357da164e4b5
   m_Entries:
-  - m_Id: 352509579264
-    m_Key: bacteria
+  - m_Id: 20928876544
+    m_Key: plateletInfo
     m_Metadata:
       m_Items: []
-  - m_Id: 425905704960
-    m_Key: virus
+  - m_Id: 1183648665600
+    m_Key: plateletName
     m_Metadata:
       m_Items: []
-  - m_Id: 480192581632
-    m_Key: parasite
+  - m_Id: 5306376867840
+    m_Key: bacteriaInfo
     m_Metadata:
       m_Items: []
-  - m_Id: 44513912174235648
-    m_Key: bacteriaLevelDescription
+  - m_Id: 5422110298112
+    m_Key: bacteriaName
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 3133919860808482974
+    rid: 4205266462668750851
   references:
     version: 2
     RefIds:
-    - rid: 3133919860808482974
+    - rid: 4205266462668750851
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1669311844155
+        m_CustomEpoch: 1679923197303

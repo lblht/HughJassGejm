@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -92,6 +93,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         StopAllCoroutines();
+        currentDialogue.dialogueEndEvent?.Invoke();
         thirdPersonController.SetAllowControl(true);
         dialogueBoxUI.SetActive(false);
         inDialogue = false;

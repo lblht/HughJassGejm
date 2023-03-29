@@ -9,6 +9,7 @@ public class Macrophage : MonoBehaviour
     [SerializeField] private LayerMask bacteriaLayer;  
     [SerializeField] private GameObject suckEffect;  
     [SerializeField] private Slider slider;  
+    [SerializeField] private AudioPlayer audioPlayer;  
 
     private bool canEat = true;
     private bool eating;
@@ -31,9 +32,16 @@ public class Macrophage : MonoBehaviour
     void GetInput()
     {
         if((Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0)) && canEat)
+        {
             eating = true;
+            if(GameManager.instance && !GameManager.instance.GetPause())
+                audioPlayer.PlaySound("suck");
+        }
         if(Input.GetKeyUp(KeyCode.E) || Input.GetMouseButtonUp(0))
+        {
+            audioPlayer.StopSound("suck");
             eating = false;
+        }
 
         if(eating && !canEat)
             eating = false;
@@ -52,6 +60,7 @@ public class Macrophage : MonoBehaviour
             {
                 hitCollider.gameObject.GetComponent<BacteriaDeath>().Die("Macrophage");
                 StartCoroutine("Expand");
+                audioPlayer.PlaySound("eat");
             }
         }
     }

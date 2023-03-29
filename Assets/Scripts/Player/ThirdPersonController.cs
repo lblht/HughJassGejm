@@ -15,6 +15,7 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField] private GameObject speedEffect;   
     [SerializeField] private GameObject walkUI;   
     [SerializeField] private GameObject runUI;   
+    [SerializeField] private AudioPlayer audioPlayer;   
 
     private Transform camTransform;            // referencia na transform kamery   
     private GameObject thirdPersonCamera;
@@ -94,6 +95,7 @@ public class ThirdPersonController : MonoBehaviour
         {
             Jump();
             animator?.SetTrigger("jump");
+            audioPlayer.PlaySound("jump");
         }
 
         if(Input.GetKeyDown(KeyCode.LeftShift) && canSprint)

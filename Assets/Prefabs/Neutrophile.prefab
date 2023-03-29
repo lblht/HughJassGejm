@@ -6842,6 +6842,7 @@ MonoBehaviour:
   soundClips:
   - clipName: step
     volume: 0.05
+    loop: 0
     clip: {fileID: 8300000, guid: 4edd36a36ae430d4da7c4b5f392bc451, type: 3}
     audioSource: {fileID: 0}
 --- !u!1 &7696802364784767508
@@ -7358,6 +7359,7 @@ MonoBehaviour:
   poisonEmitEffect: {fileID: 3239176923769764331}
   cooldownTime: 10
   maxPoisonAmmo: 3
+  audioPlayer: {fileID: 2530546222851724975}
 --- !u!114 &8156362169442382075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7374,6 +7376,25 @@ MonoBehaviour:
   firstPersonController: {fileID: 0}
   animator: {fileID: 4252383068962747470}
   allowRotation: 0
+--- !u!114 &2530546222851724975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3156969310876467979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd0912e4996c2948948103209fb67c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixerGroup: {fileID: 24300002, guid: 81e9cb429846a514db23fdd910c1e500, type: 2}
+  soundClips:
+  - clipName: gas
+    volume: 0.1
+    loop: 1
+    clip: {fileID: 8300000, guid: 905570cafcd442d4485e67a43e3a4c3c, type: 3}
+    audioSource: {fileID: 0}
 --- !u!114 &3156969310876467982 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7406302697618358793, guid: 0410e375a6a24544cae732fe5312b49f,
