@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class BacteriaDeath : MonoBehaviour
 {
     [SerializeField] private int dropChance; // Šanca v % či z bakterie padne časť z jej teľa ( neskôr zbierané dendritic cell)
-    [SerializeField] private GameObject part; // prefab objektu časti baktérie 
+    [SerializeField] private GameObject part; // prefab objektu časti baktérie (dna)
 
     private int maxHp = 5;
     private int currentHp;

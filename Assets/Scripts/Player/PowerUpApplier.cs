@@ -5,18 +5,18 @@ using UnityEngine.UI;
 
 public class PowerUpApplier : MonoBehaviour
 {
-    [SerializeField] private ThirdPersonController thirdPersonController;
-    [SerializeField] private Image speedTimerUI;
+    [SerializeField] private ThirdPersonController thirdPersonController; // referencia na ThirdPersonController skript postavy
+    [SerializeField] private Image speedTimerUI; // UI element ktorý zobrazuje zostávajúci čas trvania speed boostu
 
-    [SerializeField] private ParticleSystem dashEffect;
-    [SerializeField] private GameObject dashUI;
+    [SerializeField] private ParticleSystem dashEffect; // efekt spustenia boostu dash
+    [SerializeField] private GameObject dashUI; // UI element ktorý zobrazuje že hráč môže použiť dash
 
     [SerializeField] private AudioPlayer audioPlayer;
 
-    private float speedAdder = 4f;
-    private float speedCooldown = 5f;
-    private float originalSpeed;
-    private float speedTimer;
+    private float speedAdder = 4f; // hodnota o koľko sa zvýši rýchlosť postavy
+    private float speedCooldown = 5f; 
+    private float originalSpeed;    // originálne rýchlosť na ktorú sa po vypršaní cooldownu vráti
+    private float speedTimer;   
     private bool speedBoost;
 
     private bool dash;

@@ -185,10 +185,11 @@ public class BacteriaAI : MonoBehaviour
         {
             NavMeshHit hit;
             // nájde pozíciu na NavMeshi vo v zdialenosti 5 v okruhu 3 smerom od hráča
+            // pointa je že sa baktéria pohybuje smerom od hráča (uteká od neho)
             NavMesh.SamplePosition(transform.position + ((transform.position - player.position).normalized * 5), out hit, 3f, NavMesh.AllAreas);
             targetPosition = hit.position;
         }
-        else
+        else // ak už hráč nieje v blízkosti tak sa vráti k hladaniu jedla
         {
             state = States.LookingForFood;
         }
@@ -226,11 +227,7 @@ public class BacteriaAI : MonoBehaviour
 
     bool CheckIfPlayerInRange()
     {
-        /*if(Vector3.Distance(player.position, transform.position) < playerDetectionRadius)
-            return true;
-        else
-            return false;*/
-
+        // skontroluje collideri v určiro rádiuse na vrstve playerMask a zistí či sa hráč nachádza v danom rádiuse
         if(Physics.OverlapSphere(transform.position, playerDetectionRadius, playerMask).Length > 0)
         {
             Collider[] hitColliders = Physics.OverlapSphere(transform.position, playerDetectionRadius, playerMask);
@@ -240,7 +237,7 @@ public class BacteriaAI : MonoBehaviour
         else
             return false;
     }
-    // Resetuje hodnoty na default
+    // Resetuje hodnoty na default pri mitóze
     void Reset()
     {
         GameManager.instance?.RemoveBacteria("Mitosis");
@@ -252,8 +249,11 @@ public class BacteriaAI : MonoBehaviour
     void AlignMeshWithGround()
     {
         //TODO
+        // Tu sme mali v pláne implementovať aby mesh baktérie rotoval s povrchom 
+        // (ak sa pochybuje hore komcom tak je otočený do uhla kopca a nie horizontálne)
     }
 
+    // funkcie zmení nastavenia komponentov tak aby bola ovládaná fyzikov a nastaví timer za aký čas má byť znovu kontrolovaná navmesh agentom
     public void Ragdoll(bool value, float delay)
     {
         GetComponent<Rigidbody>().useGravity = value;
