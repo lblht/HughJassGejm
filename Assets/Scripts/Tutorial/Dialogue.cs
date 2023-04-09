@@ -6,6 +6,6 @@ using UnityEngine.Events;
 public class Dialogue : MonoBehaviour
 {
     public string dialogueName;
-    public DialogueNode[] dialogueNodes;
+    public DialogueNodeScriptableObject[] dialogueNodes;
     public UnityEvent dialogueEndEvent;
 }

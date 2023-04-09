@@ -7,7 +7,7 @@ public class Wound : MonoBehaviour
     [SerializeField] private GameObject prefab;
 
     private float timer;
-    private float timerDelay = 2;
+    private float timerDelay = 2.5f;
     private float size = 1;
 
     void FixedUpdate()

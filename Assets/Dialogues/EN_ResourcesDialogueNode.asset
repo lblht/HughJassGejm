@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810179d58a3833543ac0092c7ee9e5ec, type: 3}
+  m_Name: EN_ResourcesDialogueNode
+  m_EditorClassIdentifier: 
+  sentences:
+  - sentence: These represent the resources of the body.
+    audioClip: {fileID: 0}
+  - sentence: If bacteria or any other hostile organism enters the body they may
+      try feeding on it's resources to reproduce.
+    audioClip: {fileID: 0}
+  - sentence: You are a white blood cell, if something like that ever happens your
+      job is to protect the body
+    audioClip: {fileID: 0}

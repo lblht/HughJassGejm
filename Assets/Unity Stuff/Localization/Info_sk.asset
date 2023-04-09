@@ -19,11 +19,15 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 20928876544
-    m_Localized: "Krvn\xE9 do\u0161ti\u010Dky alebo trombocyty s\xFA druh krvn\xFDch
-      teliesok. S\xFA to najmen\u0161ie telieska v krvi. \n\nVznikaj\xFA v kostnej
-      dreni fragment\xE1ciou cytoplazmy megakaryocytov. \n\n\u017Dij\xFA iba nieko\u013Eko
-      (9-12) dn\xED. U \u010Dloveka je ich 150-450 \xD7 109 v litri.\n\nHlavnou funkciou
-      trombocytov je zr\xE1\u017Eanie krvi za \xFA\u010Delom zastavenia krv\xE1cania.\r "
+    m_Localized: "Trombocyty, tie\u017E naz\xFDvan\xE9 krvn\xE9 do\u0161ti\u010Dky,
+      s\xFA mal\xE9 fragmenty buniek v krvi, ktor\xE9 zohr\xE1vaj\xFA d\xF4le\u017Eit\xFA
+      \xFAlohu pri zr\xE1\u017Ean\xED krvi. Pri poranen\xED sa trombocyty r\xFDchlo
+      dostan\xFA na miesto poranenia a spolu sa zlepia, aby vytvorili z\xE1tku, ktor\xE1
+      pom\xE1ha zastavi\u0165 krv\xE1canie. \n\nTrombocyty sa vytv\xE1raj\xFA v kostnej
+      drene a m\xF4\u017Eu \u017Ei\u0165 pribli\u017Ene 7 a\u017E 10 dn\xED v krvi.
+      N\xEDzky po\u010Det trombocytov m\xF4\u017Ee sp\xF4sobi\u0165 krv\xE1canie
+      a vy\u0161\u0161\xED po\u010Det trombocytov m\xF4\u017Ee zv\xFD\u0161i\u0165
+      riziko tvorby krvn\xFDch zrazen\xEDn."
     m_Metadata:
       m_Items: []
   - m_Id: 1183648665600
@@ -35,7 +39,84 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5306376867840
-    m_Localized: "bla bla nejak\xE9 veci o bakt\xE9riach..."
+    m_Localized: "Bakt\xE9rie s\xFA mal\xE9 jednobunkov\xE9 organizmy, ktor\xE9 sa
+      nach\xE1dzaj\xFA takmer v\u0161ade. Niektor\xE9 druhy bakt\xE9ri\xED m\xF4\u017Eu
+      sp\xF4sobi\u0165 infekcie u \u013Eud\xED, ako napr\xEDklad Clostridium tetani,
+      ktor\xFD sp\xF4sobuje tetanus.\r\n\r\nKe\u010F sa tento druh bakt\xE9ri\xED
+      dostane do tela cez r\xE1n alebo poranenie, sp\xF4sob\xED infekciu a m\xF4\u017Ee
+      pou\u017Ei\u0165 v\xFD\u017Eivov\xE9 l\xE1tky a in\xE9 zdroje v tele na rast
+      a rozmno\u017Eovanie. To m\xF4\u017Ee vies\u0165 k pr\xEDznakom ako hor\xFA\u010Dka,
+      \xFAnava a strata chuti do jedla, ke\u010F\u017Ee telo sa sna\u017E\xED bojova\u0165
+      proti infekcii a z\xEDska\u0165 kontrolu nad svojimi zdrojmi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4014344013959168
+    m_Localized: "Zdroje te\u013Ea"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4014277039312896
+    m_Localized: "Tieto predstavuj\xFA zdroje tela ako cukry, aminokyseliny a tuky.
+      Zlomyse\u013En\xE9 bakt\xE9rie sa na nich \u017Eivia, aby sa mohli rozmno\u017Eova\u0165
+      a oslabi\u0165 telo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4015952055586816
+    m_Localized: Sacharidy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4015853195841536
+    m_Localized: "Saccharidy, tie\u017E zn\xE1me ako cukry, s\xFA jedn\xFDm z hlavn\xFDch
+      typov \u017Eiv\xEDn nach\xE1dzaj\xFAcich sa v potrave. Skladaj\xFA sa z jednoduch\xFDch
+      cukrov\xFDch molek\xFAl, ktor\xE9 na\u0161e tel\xE1 pou\u017E\xEDvaj\xFA ako
+      zdroj energie.\r\n\r\nExistuj\xFA r\xF4zne typy sacharidov, vr\xE1tane jednoduch\xFDch
+      cukrov ako gluk\xF3za a frukt\xF3za a komplexn\xFDch sacharidov ako \u0161kroby
+      a vl\xE1kniny. \n\nKonzum\xE1cia vyv\xE1\u017Eenej stravy s dostato\u010Dn\xFDm
+      mno\u017Estvom sacharidov m\xF4\u017Ee pom\xF4c\u0165 udr\u017Ea\u0165 na\u0161e
+      tel\xE1 zdrav\xE9 a poskytn\xFA\u0165 n\xE1m energiu, ktor\xFA potrebujeme
+      pre n\xE1\u0161 be\u017En\xFD de\u0148."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4016700357169152
+    m_Localized: "So\u013E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4016673001918464
+    m_Localized: "So\u013E je miner\xE1l, ktor\xFD sa sklad\xE1 z dvoch zlo\u017Eiek
+      - sod\xEDka a chloridu. S\xF3dium je chemick\xFD prvok, ktor\xFD zohr\xE1va
+      d\xF4le\u017Eit\xFA \xFAlohu v na\u0161om tele pri regul\xE1cii rovnov\xE1hy
+      tekut\xEDn a prenosu nervov\xFDch impulzov. \n\nAv\u0161ak nadmern\xE1 konzum\xE1cia
+      sod\xEDka m\xF4\u017Ee by\u0165 \u0161kodliv\xE1 a zv\xFD\u0161i\u0165 riziko
+      vysok\xE9ho krvn\xE9ho tlaku a \u010Fal\u0161\xEDch zdravotn\xFDch probl\xE9mov.
+      Je d\xF4le\u017Eit\xE9 udr\u017Eiava\u0165 vyv\xE1\u017Een\xFA stravu a obmedzi\u0165
+      konzum\xE1ciu slan\xFDch potrav\xEDn."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4017548575461376
+    m_Localized: "Lipidy s\xFA druhom molek\xFAl, ktor\xE9 na\u0161e telo vyu\u017E\xEDva
+      na z\xEDskavanie energie, izol\xE1ciu a ochranu. S\xFA tie\u017E d\xF4le\u017Eit\xE9
+      pre \u0161trukt\xFAru buniek v tele. Lipidy sa vyskytuj\xFA vo forme tukov,
+      olejov a voskov. Hoci nadmern\xFD pr\xEDjem niektor\xFDch lipidov nie je zdrav\xFD,
+      in\xE9, ako napr\xEDklad omega-3 mastn\xE9 kyseliny, s\xFA d\xF4le\u017Eit\xE9
+      pre celkov\xE9 zdravie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4017567412080640
+    m_Localized: Lipidy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4018267315589120
+    m_Localized: "Vitam\xEDn C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4018238685270016
+    m_Localized: "Vitam\xEDn C je \u017Eivina, ktor\xFA na\u0161e telo potrebuje
+      na udr\u017Eanie zdravia. Pom\xE1ha n\xE1m vytv\xE1ra\u0165 kolag\xE9n, prote\xEDn,
+      ktor\xFD udr\u017Euje na\u0161u poko\u017Eku, kosti a cievy siln\xE9. Tie\u017E
+      pom\xE1ha n\xE1\u0161mu imunitn\xE9mu syst\xE9mu bojova\u0165 proti infekci\xE1m,
+      ako s\xFA prechladnutia. \n\nVitam\xEDn C m\xF4\u017Eeme z\xEDska\u0165 z potrav\xEDn
+      ako s\xFA pomaran\u010De, jahody, kiwi a brokolica. Je d\xF4le\u017Eit\xE9
+      jes\u0165 r\xF4zne potraviny, aby sme si ka\u017Ed\xFD de\u0148 zabezpe\u010Dili
+      dostatok vitam\xEDnu C."
     m_Metadata:
       m_Items: []
   references:

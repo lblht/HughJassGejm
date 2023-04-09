@@ -19,10 +19,13 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 20928876544
-    m_Localized: "Platelets or thrombocytes are a component of blood whose function
-      is to react to bleeding from blood vessel injury by clumping, thereby initiating
-      a blood clot. \n\nPlatelets are found only in mammals, whereas in other vertebrates
-      (e.g. birds, amphibians), thrombocytes circulate as intact mononuclear cells."
+    m_Localized: "Platelets, also known as thrombocytes, are tiny cell fragments
+      in the blood that play an important role in blood clotting. When there is an
+      injury, platelets rush to the site of the injury and stick together to form
+      a plug that helps stop bleeding. \n\nPlatelets are produced in the bone marrow
+      and can live for about 7 to 10 days in the bloodstream. Low platelet levels
+      can lead to a bleeding disorder called thrombocytopenia, while high platelet
+      levels can increase the risk of blood clots."
     m_Metadata:
       m_Items: []
   - m_Id: 1183648665600
@@ -34,7 +37,74 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5306376867840
-    m_Localized: "bla bla nejak\xE9 veci o bakt\xE9riach..."
+    m_Localized: "Bacteria are tiny single-celled organisms that can be found almost
+      everywhere. Some types of bacteria can cause infections in humans, such as
+      Clostridium tetani which causes tetanus. \n\nWhen this type of bacteria gets
+      into the body through a wound or cut, it cause an infection in the body, they
+      can use the body's nutrients and other resources to grow and reproduce. This
+      can lead to symptoms like fever, fatigue, and loss of appetite, as the body
+      tries to fight off the infection and regain control of its resources."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4014344013959168
+    m_Localized: Body's resources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4014277039312896
+    m_Localized: These represent the body's resources like sugars, amino acids, and
+      fats. Malicious bacteria feed on them to reproduce and weaken the body.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4015952055586816
+    m_Localized: Saccharides
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4015853195841536
+    m_Localized: "Saccharides, also known as carbohydrates or sugars, are one of
+      the main types of nutrients found in food. They are made up of simple sugar
+      molecules that our bodies use as a source of energy. \n\nThere are different
+      types of saccharides, including simple sugars like glucose and fructose, and
+      complex carbohydrates like starches and fibers. \n\nEating a balanced diet
+      with the right amount of saccharides can help keep our bodies healthy and provide
+      us with the energy we need to go about our day."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4016700357169152
+    m_Localized: Salt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4016673001918464
+    m_Localized: "Salt is a mineral that is made up of two components, sodium and
+      chloride. Sodium is a chemical element that plays an important role in our
+      body by regulating the balance of fluids and helping to transmit nerve impulses.
+      \n\nHowever, consuming too much sodium can be harmful and increase the risk
+      of high blood pressure and other health problems. It's important to maintain
+      a balanced diet and limit our intake of salty foods."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4017548575461376
+    m_Localized: Lipids are a type of molecule that our bodies use for energy, insulation,
+      and protection. They are also important for the structure of cell membranes.
+      Lipids come in different forms such as fats, oils, and waxes. While some lipids
+      are unhealthy in excess, others like omega-3 fatty acids are important for
+      our overall health.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4017567412080640
+    m_Localized: Lipids
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4018267315589120
+    m_Localized: Vitamin C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4018238685270016
+    m_Localized: "Vitamin C is a nutrient that our body needs to stay healthy. It
+      helps us make collagen, a protein that keeps our skin, bones, and blood vessels
+      strong. It also helps our immune system fight off infections, like colds. \n\nYou
+      can get vitamin C from foods like oranges, strawberries, kiwi, and broccoli.
+      It's important to eat a variety of these foods to make sure you get enough
+      vitamin C every day."
     m_Metadata:
       m_Items: []
   references:

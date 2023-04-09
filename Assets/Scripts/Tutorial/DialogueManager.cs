@@ -12,9 +12,11 @@ public class DialogueManager : MonoBehaviour
     public Dialogue[] dialogues;
     public GameObject cutsceneCamera;
     public AudioPlayer audioPlayer;
+    public AudioSource audioSource;
     [SerializeField] ThirdPersonController thirdPersonController;
 
     private Queue<string> quedSentences;
+    private Queue<AudioClip> quedAudioClips;
     private Dialogue currentDialogue;
     private bool inDialogue;
     private int currentNodeIndex;
@@ -24,6 +26,7 @@ public class DialogueManager : MonoBehaviour
         //currentDialogue = dialogues[0];
 
         quedSentences = new Queue<string>();
+        quedAudioClips = new Queue<AudioClip>();
         dialogueBoxUI.SetActive(false);
     }
 
@@ -51,9 +54,11 @@ public class DialogueManager : MonoBehaviour
         inDialogue = true;
 
         quedSentences.Clear();
-        foreach (string sentence in currentDialogue.dialogueNodes[currentNodeIndex].sentences)
+        quedAudioClips.Clear();
+        foreach (var sentence in currentDialogue.dialogueNodes[currentNodeIndex].sentences)
         {
-            quedSentences.Enqueue(sentence);
+            quedSentences.Enqueue(sentence.sentence);
+            quedAudioClips.Enqueue(sentence.audioClip);
         }
     }
 
@@ -72,7 +77,10 @@ public class DialogueManager : MonoBehaviour
         else
         {
             string nextSentence = quedSentences.Dequeue();
+            audioSource.clip = quedAudioClips.Dequeue();
             dialogueBoxTextUI.text = nextSentence;
+            if(audioSource.clip != null)
+                audioSource.Play();
             StopAllCoroutines();
             StartCoroutine(DisplaySentence(nextSentence));
         }
@@ -99,5 +107,6 @@ public class DialogueManager : MonoBehaviour
         inDialogue = false;
         cutsceneCamera.SetActive(false);
         currentDialogue = null;
+        audioSource.Stop();
     }
 }

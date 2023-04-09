@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810179d58a3833543ac0092c7ee9e5ec, type: 3}
+  m_Name: SK_BloodFlowDialogueNode
+  m_EditorClassIdentifier: 
+  sentences:
+  - sentence: "Toto je pr\xFAd krvy v tele."
+    audioClip: {fileID: 0}
+  - sentence: "M\xF4\u017Ee\u0161 ho vyu\u017Ei\u0165 ak sa potrebuje\u0161 r\xFDchlo
+      prepravi\u0165 na in\xE9 miesto."
+    audioClip: {fileID: 0}
+  - sentence: "Stla\u010D a dr\u017E [medzern\xEDk] ke\u010F sa v \u0148om bude\u0161
+      nach\xE1dza\u0165."
+    audioClip: {fileID: 0}

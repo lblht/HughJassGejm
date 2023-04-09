@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject gameOverScreen; 
     [SerializeField] private GameObject youWinScreen; 
     [SerializeField] private ObjectiveManager objectiveManager; 
+    [SerializeField] private GameObject qOn; 
+    [SerializeField] private GameObject qPost; 
 
     private int numberOfBacteria;
     private int resourceAmount;
@@ -27,6 +29,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Application.targetFrameRate = 80;
+        qOn.SetActive(false);
     }
 
     void Awake()
@@ -46,14 +49,18 @@ public class GameManager : MonoBehaviour
             if(!infoHints)
             {
                 infoHints = true;
-                GameManager.instance.HideCursor(false);
-                GameManager.instance.PauseGame("Info");
+                qOn.SetActive(true);
+                HideCursor(false);
+                PauseGame("Info");
+                qPost?.SetActive(true);
             }
             else if(infoHints)
             {
                 infoHints = false;
-                GameManager.instance.HideCursor(true);
-                GameManager.instance.UnPauseGame("Info");
+                qOn.SetActive(false);
+                HideCursor(true);
+                UnPauseGame("Info");
+                qPost?.SetActive(false);
             }
             
         }
@@ -170,5 +177,14 @@ public class GameManager : MonoBehaviour
     public void WoundClosed()
     {
         woundClosed = true;
+
+        if(numberOfBacteria <= 0 && resourceAmount > 0)
+        {
+            youWinScreen.SetActive(true);
+
+            //potom prerobit
+            Destroy(youWinScreen, 10f);
+        }
+
     }
 }

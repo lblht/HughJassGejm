@@ -31,6 +31,46 @@ MonoBehaviour:
     m_Key: bacteriaName
     m_Metadata:
       m_Items: []
+  - m_Id: 4014277039312896
+    m_Key: resources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4014344013959168
+    m_Key: resourcesName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4015853195841536
+    m_Key: saccharide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4015952055586816
+    m_Key: saccharideName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4016673001918464
+    m_Key: sodium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4016700357169152
+    m_Key: sodiumName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4017548575461376
+    m_Key: lipid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4017567412080640
+    m_Key: lipidName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4018238685270016
+    m_Key: vitaminC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4018267315589120
+    m_Key: vitaminCName
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

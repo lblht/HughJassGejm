@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810179d58a3833543ac0092c7ee9e5ec, type: 3}
+  m_Name: SK_MovementDialogueNode
+  m_EditorClassIdentifier: 
+  sentences:
+  - sentence: "Ahoj, u\u017E sme na teba \u010Dakali."
+    audioClip: {fileID: 0}
+  - sentence: "Po\u010Dul som \u017Ee si tu nov\xFD, dovo\u013E mi predstavi\u0165
+      sa."
+    audioClip: {fileID: 0}
+  - sentence: "Ja som \u010Derven\xE1 krvinka, ja a moji kamar\xE1ti rozn\xE1\u0161ame
+      kysl\xEDk po celom tele..."
+    audioClip: {fileID: 0}
+  - sentence: "ale dnes sme tu aby sme ti uk\xE1zali ako to u n\xE1s funguje."
+    audioClip: {fileID: 0}
+  - sentence: "M\xF4\u017Ee\u0161 sa pohybova\u0165 pomocou [WASD]."
+    audioClip: {fileID: 0}
+  - sentence: "Sk\xFAs dobehn\xFA\u0165 k \u010Fal\u0161ej \u010Dervenej krvinke
+      tam za mnou."
+    audioClip: {fileID: 0}
