@@ -35,6 +35,26 @@ MonoBehaviour:
     m_Key: eatBacteria
     m_Metadata:
       m_Items: []
+  - m_Id: 52597762670546944
+    m_Key: neutrophil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52597913950703616
+    m_Key: dendriticCell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52598021966614528
+    m_Key: tCell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52598710256095232
+    m_Key: learnMore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52598758457036800
+    m_Key: newCardUnlocked
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
@@ -43,6 +63,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 3603122262032777216
-      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
       data:
         m_CustomEpoch: 1669721009998

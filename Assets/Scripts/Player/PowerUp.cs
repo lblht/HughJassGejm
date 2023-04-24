@@ -19,9 +19,9 @@ public class PowerUp : MonoBehaviour
         {
             // zavolá sa funkcia na scripte PowerUpApplier ktorý sa nachádza na objekte hráča podľa toho aký druh power upu toto je
             if(speed)
-                collision.gameObject.GetComponent<PowerUpApplier>().SpeedBoost();
+                collision.gameObject.GetComponent<PowerUpApplier>()?.SpeedBoost();
             if(dash)
-                collision.gameObject.GetComponent<PowerUpApplier>().Dash();
+                collision.gameObject.GetComponent<PowerUpApplier>()?.Dash();
             // následne sa objekt power upu deaktivuje
             Deactivate();
             // a znovu sa aktivuje za daný čas

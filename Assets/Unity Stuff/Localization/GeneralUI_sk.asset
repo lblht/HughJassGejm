@@ -38,6 +38,26 @@ MonoBehaviour:
     m_Localized: "Zo\u017Eer bakt\xE9rie"
     m_Metadata:
       m_Items: []
+  - m_Id: 52597762670546944
+    m_Localized: Neutrofil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52597913950703616
+    m_Localized: "Dendritov\xE1 Bunka"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52598021966614528
+    m_Localized: T-Bunka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52598710256095232
+    m_Localized: Zistit viac
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52598758457036800
+    m_Localized: "Nov\xE1 karta odomknut\xE1!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

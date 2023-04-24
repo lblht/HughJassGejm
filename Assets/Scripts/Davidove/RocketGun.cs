@@ -13,6 +13,8 @@ public class RocketGun : MonoBehaviour
     public float rocketSpeed = 50;
     public TextMeshProUGUI ammoDisplay;
 
+    public AudioSource shootSound;
+
 
 
     public float damage = 10f;
@@ -77,7 +79,7 @@ public class RocketGun : MonoBehaviour
 
     void Shoot()
     {
-        
+        shootSound.Play();
         currentAmmo--;
         Debug.Log("striela raketa");
 

@@ -38,6 +38,26 @@ MonoBehaviour:
     m_Localized: 'Eat bacteria:'
     m_Metadata:
       m_Items: []
+  - m_Id: 52597762670546944
+    m_Localized: Neutrophil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52597913950703616
+    m_Localized: Dendritic Cell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52598021966614528
+    m_Localized: T-Cell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52598710256095232
+    m_Localized: Learn More
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52598758457036800
+    m_Localized: New Card Unlocked!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

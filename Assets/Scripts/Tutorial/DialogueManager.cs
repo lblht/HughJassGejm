@@ -13,7 +13,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject cutsceneCamera;
     public AudioPlayer audioPlayer;
     public AudioSource audioSource;
-    [SerializeField] ThirdPersonController thirdPersonController;
+    public ThirdPersonController thirdPersonController;
 
     private Queue<string> quedSentences;
     private Queue<AudioClip> quedAudioClips;
@@ -64,6 +64,7 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
+        audioPlayer.PlaySound("krvinka");
         if(quedSentences.Count == 0)
         {
             if(currentNodeIndex+1 < currentDialogue.dialogueNodes.Length)
@@ -100,6 +101,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        audioPlayer.StopSound("krvinka");
         StopAllCoroutines();
         currentDialogue.dialogueEndEvent?.Invoke();
         thirdPersonController.SetAllowControl(true);

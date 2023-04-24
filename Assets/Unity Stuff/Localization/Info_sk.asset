@@ -119,6 +119,53 @@ MonoBehaviour:
       dostatok vitam\xEDnu C."
     m_Metadata:
       m_Items: []
+  - m_Id: 9804668032339968
+    m_Localized: "Makrof\xE1gy s\xFA ako bojovn\xEDci so zlo\u010Dinom, ktor\xED
+      hliadkuj\xFA pred \u0161kodliv\xFDmi \xFAto\u010Dn\xEDkmi a hltaj\xFA ich.
+      Pom\xE1haj\xFA chr\xE1ni\u0165 na\u0161e telo t\xFDm, \u017Ee jedia bakt\xE9rie,
+      v\xEDrusy a in\xE9 \u0161kodliv\xE9 \u010Dastice, \u010Distia na\u0161e telo
+      od odumret\xFDch buniek a spolupracuj\xFA s in\xFDmi imunitn\xFDmi bunkami,
+      aby sme boli v bezpe\u010D\xED a zdrav\xFD."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9804801008553984
+    m_Localized: "Neutrofily s\xFA r\xFDchlo p\xF4sobiacimi prv\xFDmi odpove\u010Fami
+      v na\u0161om imunitnom syst\xE9me, ktor\xE9 sa r\xFAtia na miesto infekcie,
+      aby neutralizovali \u0161kodliv\xE9 bakt\xE9rie a mikr\xF3by. Chytaj\xFA a
+      ni\u010Dia votrelcov r\xF4znymi sp\xF4sobmi, vr\xE1tane uvo\u013E\u0148ovania
+      chemik\xE1li\xED alebo ich preh\u013Atania, a spolupracuj\xFA s in\xFDmi imunitn\xFDmi
+      bunkami, aby n\xE1s chr\xE1nili."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9804829403992064
+    m_Localized: "Dendritick\xE9 bunky s\xFA poslovia alebo \u0161pi\xF3ni imunitn\xE9ho
+      syst\xE9mu, ktor\xED zachyt\xE1vaj\xFA mal\xFD k\xFAsok \u0161kodliv\xFDch
+      \xFAto\u010Dn\xEDkov a prezentuj\xFA ho in\xFDm imunitn\xFDm bunk\xE1m, ako
+      s\xFA T-bunky. T\xFDmto sp\xF4sobom pom\xE1haj\xFA n\xE1\u0161mu telu rozpozna\u0165
+      hrozby a reagova\u0165 na ne, \u010D\xEDm vytv\xE1raj\xFA cielen\xFA obranu,
+      ktor\xE1 n\xE1s udr\u017E\xED v bezpe\u010D\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9804869182771200
+    m_Localized: "T-bunky s\xFA elitn\xE9 \u0161peci\xE1lne sily v\xE1\u0161ho imunitn\xE9ho
+      syst\xE9mu, ktor\xE9 spolupracuj\xFA na ochrane v\xE1\u0161ho tela pred \u0161kodliv\xFDmi
+      \xFAto\u010Dn\xEDkmi. Maj\xFA r\xF4zne \xFAlohy, napr\xEDklad vytv\xE1raj\xFA
+      protil\xE1tky, priamo \xFAto\u010Dia na infikovan\xE9 bunky a udr\u017Eiavaj\xFA
+      rovnov\xE1hu v imunitnej odpovedi, \u010D\xEDm zais\u0165uj\xFA, \u017Ee va\u0161e
+      telo zostane zdrav\xE9 a bezpe\u010Dn\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9815666223042560
+    m_Localized: "DNA Bakt\xE9rie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9815640193191936
+    m_Localized: "\rTieto objekty predstavuj\xFA \u010Dasti bakt\xE9ri\xED \xFAto\u010Diacich
+      na telo. Dendritick\xE1 bunka zhroma\u017E\u010Fuje tieto \u010Dasti, aby sa
+      imunitn\xFD syst\xE9m dozvedel viac o dan\xFDch bakt\xE9ri\xE1ch a mohol proti
+      nim efekt\xEDvnej\u0161ie bojova\u0165."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

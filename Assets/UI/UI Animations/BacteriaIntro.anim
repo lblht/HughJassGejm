@@ -1130,13 +1130,6 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 4.5833335
-    functionName: PlaySound
-    data: fail
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
   - time: 9
     functionName: LoadLevel
     data: Tutorial

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0512e155cadb373428c108e0adcdc68e
+guid: ad5c958f8ad1d2b4d926e9502856b1e7
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Party Confetti
+  - Exo
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

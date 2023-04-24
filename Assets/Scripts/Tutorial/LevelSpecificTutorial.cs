@@ -10,9 +10,7 @@ public class LevelSpecificTutorial : MonoBehaviour
 
     void Start()
     {
-        tutorialScreen.SetActive(true);
-        active = true;
-        GameManager.instance.PauseGame("Tutorial");
+        tutorialScreen.SetActive(false);
     }
 
     void Update()

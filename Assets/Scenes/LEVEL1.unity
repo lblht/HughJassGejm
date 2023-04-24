@@ -22380,6 +22380,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Management & General UI
       objectReference: {fileID: 0}
+    - target: {fileID: 5195078411198997957, guid: 38f0acbd5b52650408dc8cb8f4132334,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5558739259377461397, guid: 38f0acbd5b52650408dc8cb8f4132334,
         type: 3}
       propertyPath: m_AnchorMax.x

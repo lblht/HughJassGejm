@@ -97,7 +97,7 @@ public class ThirdPersonController : MonoBehaviour
             animator?.SetTrigger("jump");
             audioPlayer.PlaySound("jump");
         }
-
+        
         if(Input.GetKeyDown(KeyCode.LeftShift) && canSprint)
         {
             sprinting = !sprinting;
@@ -142,6 +142,7 @@ public class ThirdPersonController : MonoBehaviour
         }
     }
 
+    // aplikuje vypočítaný movement na character controller
     void ApplyMovement()
     {   
         controller.Move(moveDirection.normalized * speed * Time.deltaTime);    // horizontálny pohyb
@@ -163,6 +164,7 @@ public class ThirdPersonController : MonoBehaviour
         return moveDirection;
     }
 
+    // tančeky
     void Dances()
     {
         if(Input.GetKeyDown(KeyCode.Alpha1))
@@ -183,6 +185,7 @@ public class ThirdPersonController : MonoBehaviour
             animator?.Play("Dance8");
     }
 
+    // aktivuje objekt particle effectu aj je rýchlosť väčšia ako 8
     void SpeedEffect()
     {
         if(speed > 8 && GetMoveDirection().normalized != Vector3.zero)
@@ -191,11 +194,13 @@ public class ThirdPersonController : MonoBehaviour
             speedEffect.SetActive(false);
     }
 
+    // kontroluje či je postava na zemi
     public bool IsGrounded()
     {
         return Physics.CheckSphere(transform.position - new Vector3(0f, groundCheckOffset, 0f), groundCheckSize, groundLayer);
     }
 
+    // toto UI je vypnuté, prišli sme na to že aj tak všetci iba šprintujú ale to prepínanie sme tu nechali keby náhodou
     void ChangeSprintUI()
     {
         if(sprinting)
@@ -211,6 +216,7 @@ public class ThirdPersonController : MonoBehaviour
         }
     }
 
+    // nastaví čo má hráč povolené ovládať postavu
     public void SetAllowControl(bool value)
     {
         allowControl = value;

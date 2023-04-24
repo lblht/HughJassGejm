@@ -18,7 +18,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0
+    value: 0.38
   threshold:
     overrideState: 1
     value: 0.5
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6050e2d5de785ce4d931e4dbdbf2d755, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -69,10 +69,38 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 0.1
+    value: 0
   fastMode:
     overrideState: 0
     value: 0
+--- !u!114 &-2139095047022393219
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65e486e4de6e5448a8fbb43dc8756a0, type: 3}
+  m_Name: Grain
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  colored:
+    overrideState: 0
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 0
+  size:
+    overrideState: 1
+    value: 0.6
+  lumContrib:
+    overrideState: 0
+    value: 0.8
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,7 +111,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
-  m_Name: PostProcessing Profile
+  m_Name: PostProcessingTrailer
   m_EditorClassIdentifier: 
   settings:
   - {fileID: 8864512058823589527}
@@ -91,6 +119,7 @@ MonoBehaviour:
   - {fileID: -3773082751520677450}
   - {fileID: 1236257347066247166}
   - {fileID: -8073929385149247592}
+  - {fileID: -2139095047022393219}
 --- !u!114 &976946553875309647
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -112,7 +141,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.5
+    value: 1.21
   color:
     overrideState: 0
     value: {r: 1, g: 1, b: 1, a: 1}
@@ -130,7 +159,7 @@ MonoBehaviour:
     value: -12
   thicknessModifier:
     overrideState: 1
-    value: 10
+    value: 6.14
   directLightingStrength:
     overrideState: 0
     value: 0
@@ -158,16 +187,16 @@ MonoBehaviour:
     value: 1
   focusDistance:
     overrideState: 1
-    value: 0.1
+    value: 14.2
   aperture:
     overrideState: 1
-    value: 0.1
+    value: 31.1
   focalLength:
     overrideState: 1
     value: 300
   kernelSize:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 3
 --- !u!114 &8864512058823589527
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -195,7 +224,7 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.25
+    value: 0.1
   smoothness:
     overrideState: 1
     value: 1

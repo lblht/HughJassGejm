@@ -107,6 +107,45 @@ MonoBehaviour:
       vitamin C every day."
     m_Metadata:
       m_Items: []
+  - m_Id: 9804668032339968
+    m_Localized: Macrophages are like the body's crime-fighters, patrolling for harmful
+      invaders and gobbling them up. They help protect your body by eating germs,
+      viruses, and other harmful particles, cleaning up dead cells, and working with
+      other immune cells to keep you safe and healthy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9804801008553984
+    m_Localized: Neutrophils are the fast-acting first responders in your immune
+      system, racing to the scene of an infection to neutralize harmful bacteria
+      and germs. They catch and destroy invaders in various ways, including releasing
+      chemicals or swallowing them, and work together with other immune cells to
+      keep you protected.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9804829403992064
+    m_Localized: Dendritic cells are the immune system's messengers or spies, capturing
+      a small piece of harmful invaders and presenting it to other immune cells,
+      like T-cells. By doing this, they help your body recognize and respond to threats,
+      creating a targeted defense to keep you safe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9804869182771200
+    m_Localized: T-cells are the elite special forces of your immune system, working
+      together to protect your body from harmful invaders. They have different roles,
+      such as creating antibiotics, directly attacking infected cells, and maintaining
+      balance in the immune response, ensuring your body remains healthy and safe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9815666223042560
+    m_Localized: Bacteria DNA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9815640193191936
+    m_Localized: "\rThese objects represent parts of bacteria attacking the body.
+      Dendritic Cell collects these parts so that the immune system learns more about
+      the given bacteria and can fight against them more effectively."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
